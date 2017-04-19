@@ -1,9 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans');
+// @import 'components/master';
+// @import 'components/variables';
+
+$lime: #b0eb00;
+$bright-red: #b30015;
+$dark-blue: #2a00b3;
+$deep-cerulean: #0077b3;
+$bondi-blue: #00b0b3;
+$cyan: #24fbff;
+$heliotrope: #8a7dff;
+$silver-chalice: #a6a6a6;
+$scorpion: #595959;
+$tundora: #444;
+$mine-shaft: #363636;
+$cod-gray: #111;
+$white-out: #fff;
+
+
+
+$header: 'Bree', serif;
+$paragraph: 'Open', sans;
+
+$p-font-sizes: (
+  null  : 15px,
+  480px : 16px,
+  640px : 2.5rem,
+  1024px: 39px
+);
+
+$h1-font-sizes: (
+  null  : 28px,
+  480px : 31px,
+  640px : 5rem,
+  1024px: 66px
+);
+
+@mixin font-size($fs-map) {
+  @each $fs-breakpoint, $fs-font-size in $fs-map {
+    @if $fs-breakpoint == null {
+      font-size: $fs-font-size;
+    }
+    @else {
+      @media screen and (min-width: $fs-breakpoint) {
+        font-size: $fs-font-size;
+      }
+    }
+  }
+}
+
+p, ul, input, button {
+  @include font-size($p-font-sizes);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, span {
+  @include font-size($h1-font-sizes);
+  -webkit-font-smoothing: antialiased;
+}
+
+
 $padding: 20px;
 body {
   padding: $padding;
-  background: url("https://source.unsplash.com/category/nature/") no-repeat center center fixed;
+  background: url("https://source.unsplash.com/collection/295/") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+h1 {
+  color: $white-out;
+  margin: 0;
+  text-shadow: 2px 2px $cod-gray;
+  text-align: center;
+}
+
+p {
+  color: $white-out;
+  text-shadow: 2px 2px $cod-gray;
+  text-align: center;
+}
+
+container {
+  display: flex;
+  height: 100%;
+  padding: 0;
+  margin: 15%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }

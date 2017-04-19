@@ -59,6 +59,7 @@ gulp.task('styles', () => {
       includePaths: ['.']
     }).on('error', $.sass.logError))
     .pipe(gulp.dest('app/styles'));
+
 });
 
 gulp.task('html', ['styles'], () => {
