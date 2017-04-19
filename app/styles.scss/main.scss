@@ -14,6 +14,7 @@ $scorpion: #595959;
 $tundora: #444;
 $mine-shaft: #363636;
 $cod-gray: #111;
+$cod-gray-faded: rgba(0,0,0,0.5);
 $white-out: #fff;
 
 
@@ -48,12 +49,12 @@ $h1-font-sizes: (
   }
 }
 
-p, ul, input, button {
+p, ul, input, button, #countdown span {
   @include font-size($p-font-sizes);
   -webkit-font-smoothing: antialiased;
 }
 
-h1, span {
+h1, #id span {
   @include font-size($h1-font-sizes);
   -webkit-font-smoothing: antialiased;
 }
@@ -86,9 +87,16 @@ container {
   display: flex;
   height: 100%;
   padding: 0;
-  margin: 15%;
+  margin: 15% 0;
+  padding: 5% 0;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  background-color: $cod-gray-faded;
+}
+
+#countdown {
+
 }
