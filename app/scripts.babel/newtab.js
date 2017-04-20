@@ -1,6 +1,6 @@
 'use strict';
 
-let quotes = [
+const quotes = [
   '\"Is it nice is it\'s necessary is it true?\"',
   '\"Fail Better.\"',
   '\"When life happens, you can be either the author of your life or the victim of it.\"',
@@ -24,8 +24,15 @@ const _second = 1000;
 let _minute = _second * 60;
 let _hour = _minute * 60;
 let _day = _hour * 24;
-let timer;
 const items = [drinks, coffee, meat, age];
+
+//fix this
+// const items = {
+//   drinks: new Date('09/26/2016 06:1 AM');
+//   drinks: new Date('09/26/2016 06:1 AM');
+//   drinks: new Date('09/26/2016 06:1 AM');
+//   drinks: new Date('09/26/2016 06:1 AM');
+// }
 
 function newQuote() {
   const randomQuote = Math.floor(Math.random() * (quotes.length));
@@ -55,13 +62,6 @@ function deployDates() {
   return [now, distance, days, hours, minutes, seconds];
 };
 
-function displayDrinks() {
-  const [now, distance, days, hours, minutes, seconds] = deployDates();
-  document.getElementById('days').innerHTML = days + ' Days ';
-  document.getElementById('hours').innerHTML = hours + 'h ';
-  document.getElementById('mins').innerHTML = minutes + 'm ';
-  document.getElementById('secs').innerHTML = seconds + 's ';
-};
 
 function deployCoffee() {
   const now = new Date();
@@ -73,14 +73,6 @@ function deployCoffee() {
   return [now, distance, days, hours, minutes, seconds];
 };
 
-function displayCoffee() {
-  const [now, distance, days, hours, minutes, seconds] = deployCoffee();
-  document.getElementById('days-java').innerHTML = days + ' Days ';
-  document.getElementById('hours-java').innerHTML = hours + 'h ';
-  document.getElementById('mins-java').innerHTML = minutes + 'm ';
-  document.getElementById('secs-java').innerHTML = seconds + 's ';
-}
-
 function deployMeat() {
   const now = new Date();
   const distance = now - items[2];
@@ -90,14 +82,6 @@ function deployMeat() {
   const seconds = Math.floor((distance % _minute) / _second);
   return [now, distance, days, hours, minutes, seconds];
 };
-
-function displayMeat() {
-  const [now, distance, days, hours, minutes, seconds] = deployMeat();
-  document.getElementById('days-meat').innerHTML = days + ' Days ';
-  document.getElementById('hours-meat').innerHTML = hours + 'h ';
-  document.getElementById('mins-meat').innerHTML = minutes + 'm ';
-  document.getElementById('secs-meat').innerHTML = seconds + 's ';
-}
 
 function deployAge() {
   const now = new Date();
@@ -109,6 +93,30 @@ function deployAge() {
   return [now, distance, days, hours, minutes, seconds];
 };
 
+function displayDrinks() {
+  const [now, distance, days, hours, minutes, seconds] = deployDates();
+  document.getElementById('days').innerHTML = days + ' Days ';
+  document.getElementById('hours').innerHTML = hours + 'h ';
+  document.getElementById('mins').innerHTML = minutes + 'm ';
+  document.getElementById('secs').innerHTML = seconds + 's ';
+};
+
+function displayCoffee() {
+  const [now, distance, days, hours, minutes, seconds] = deployCoffee();
+  document.getElementById('days-java').innerHTML = days + ' Days ';
+  document.getElementById('hours-java').innerHTML = hours + 'h ';
+  document.getElementById('mins-java').innerHTML = minutes + 'm ';
+  document.getElementById('secs-java').innerHTML = seconds + 's ';
+}
+
+function displayMeat() {
+  const [now, distance, days, hours, minutes, seconds] = deployMeat();
+  document.getElementById('days-meat').innerHTML = days + ' Days ';
+  document.getElementById('hours-meat').innerHTML = hours + 'h ';
+  document.getElementById('mins-meat').innerHTML = minutes + 'm ';
+  document.getElementById('secs-meat').innerHTML = seconds + 's ';
+}
+
 function displayAge() {
   const [now, distance, days, hours, minutes, seconds] = deployAge();
   document.getElementById('days-age').innerHTML = days + ' Days ';
@@ -117,16 +125,10 @@ function displayAge() {
   document.getElementById('secs-age').innerHTML = seconds + 's ';
 }
 
-
 newUser();
 newGreeting();
 newQuote();
 const list = [displayDrinks, displayCoffee, displayMeat, displayAge];
-displayDrinks()
-timer = setInterval(list, 50);
-displayCoffee()
-timer = setInterval(displayCoffee, 50);
-displayMeat()
-timer = setInterval(displayMeat, 50);
-displayAge()
-timer = setInterval(displayAge, 50);
+list.forEach(fn => {
+  setInterval(fn, 50);
+})
