@@ -121,8 +121,9 @@ function displayAge() {
 newUser();
 newGreeting();
 newQuote();
+const list = [displayDrinks, displayCoffee, displayMeat, displayAge];
 displayDrinks()
-timer = setInterval(displayDrinks, 50);
+timer = setInterval(list, 50);
 displayCoffee()
 timer = setInterval(displayCoffee, 50);
 displayMeat()
