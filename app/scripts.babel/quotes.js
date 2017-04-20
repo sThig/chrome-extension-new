@@ -9,6 +9,7 @@ export const quotes = [
   '\"What\'s the ONE thing I can do such that by doing it everything else will be easier or unnecessary\"',
   '\"10% of life is 90% of what you make of it\"',
   '\"Find the lead domino and whack away at it until it falls\"',
+  '\"No one who can rise before dawn three hundred and sixty days a year fails to make his family rich\"',
   '\"I believe that financially wealthy people are those who have enough money coming in without having to work to finance their purpose in life. Now, please realize that this definition presents a challenge to anyone who accepts it. To be financially wealthy you must have a purpose for your life.\"',
 ];
 

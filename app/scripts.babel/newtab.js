@@ -55,9 +55,9 @@ const displayTime = (calcFn, id) => {
   const [now, distance, days, hours, minutes, seconds] = calcFn();
 
   document.getElementById(`days-${id}`).innerHTML = days + ' Days';
-  document.getElementById(`hours-${id}`).innerHTML = hours + ' h';
-  document.getElementById(`minutes-${id}`).innerHTML = minutes + ' m';
-  document.getElementById(`seconds-${id}`).innerHTML = seconds + ' s';
+  document.getElementById(`hours-${id}`).innerHTML = hours + 'h ';
+  document.getElementById(`minutes-${id}`).innerHTML = minutes + 'm ';
+  document.getElementById(`seconds-${id}`).innerHTML = seconds + 's ';
 }
 
 newUser();
