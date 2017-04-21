@@ -1,6 +1,20 @@
 import { quotes, hello } from './quotes';
 
-const userName = 'Scott';
+// const userNameEnter = () => {
+//   localStorage.getItem('userName');
+//   if (userName != '') {
+//     const person = prompt('Please enter your name');
+//   }
+// }
+
+// function enterUserName() {
+//   localStorage.getItem('userName');
+//   if (userName != '') {
+//     const person = prompt('Please enter your name');
+//   }
+// }
+// const person = prompt('Please enter your name');
+let userName = 'Scott';
 const second = 1000;
 const minute = second * 60;
 const hour = minute * 60;
@@ -39,7 +53,11 @@ const newUser = () => {
   localStorage.setItem('userName', JSON.stringify(userName));
   const retrievedObject = localStorage.getItem('userName');
   document.getElementById('user').innerHTML = JSON.parse(retrievedObject);
+
 }
+
+
+
 
 const calcTime = startDate => () => {
   const now = new Date();
@@ -60,6 +78,7 @@ const displayTime = (calcFn, id) => {
   document.getElementById(`seconds-${id}`).innerHTML = seconds + 's ';
 }
 
+// entrUserName()
 newUser();
 newGreet();
 newQuote();
