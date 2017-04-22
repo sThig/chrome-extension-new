@@ -1,15 +1,17 @@
 <!doctype html>
 <html>
-  <head>
-    <link href="styles/main.css" rel="stylesheet">
-  </head>
-  <body>
-    <container>
-     <row id="content">
-       <h1 id="username"><span id="hi"></span>, <span id="user">Scott!</span></h1>
-       <p id="quotate">
-         adding in some static content that I hope to change here soon with so me quotes
-       </p>
+
+<head>
+  <link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <container>
+    <row id="content">
+      <h1 id="username"><span id="hi"></span>, <span id="user">Scott!</span></h1>
+      <p id="quotate">
+        adding in some static content that I hope to change here soon with so me quotes
+      </p>
       <div class="data-boxes">
 
         <div class="boxes">
@@ -22,52 +24,56 @@
             <span class="hours" id="hours-drinks"></span>
             <span class="mins" id="minutes-drinks"></span>
             <span class="secs" id="seconds-drinks"></span>
-          </col>
+            </col>
+          </row>
+        </div>
+        <div class="boxes">
+          <row class="timer-box">
+            <p class="timer-label">No Java For</p>
+
+            <col class="timer-widget">
+            <span class="days" id="days-coffee"></span>
+            <br />
+            <span class="hours" id="hours-coffee"></span>
+            <span class="mins" id="minutes-coffee"></span>
+            <span class="secs" id="seconds-coffee"></span>
+            </col>
+          </row>
+        </div>
+        <div class="boxes">
+          <row class="timer-box">
+            <p class="timer-label">No Meat For</p>
+            <col class="timer-widget">
+            <span class="days" id="days-meat"></span>
+            <br />
+            <span class="hours" id="hours-meat"></span>
+            <span class="mins" id="minutes-meat"></span>
+            <span class="secs" id="seconds-meat"></span>
+            </col>
+          </row>
+        </div>
+        <div class="boxes">
+          <row class="timer-box">
+            <p class="timer-label">Alive For</p>
+            <col class="timer-widget">
+            <span class="days" id="days-age"></span>
+            <br />
+            <span class="hours" id="hours-age"></span>
+            <span class="mins" id="minutes-age"></span>
+            <span class="secs" id="seconds-age"></span>
+            </col>
+          </row>
+        </div>
+      </div>
+      <div class="sites">
+        <row class="site-box">
+          <p class="site-label" id="site-lifehacker">test</p>
+          <p class="site-label" id="site-reddit">test</p>
         </row>
       </div>
-      <div class="boxes">
-        <row class="timer-box">
-          <p class="timer-label">No Java For</p>
-
-          <col class="timer-widget">
-          <span  class="days"id="days-coffee"></span>
-          <br />
-          <span class="hours" id="hours-coffee"></span>
-          <span class="mins" id="minutes-coffee"></span>
-          <span class="secs" id="seconds-coffee"></span>
-        </col>
-      </row>
-    </div>
-    <div class="boxes">
-      <row class="timer-box">
-        <p class="timer-label">No Meat For</p>
-
-        <col class="timer-widget">
-        <span class="days" id="days-meat"></span>
-        <br />
-        <span class="hours" id="hours-meat"></span>
-        <span class="mins" id="minutes-meat"></span>
-        <span class="secs" id="seconds-meat"></span>
-      </col>
     </row>
-  </div>
-  <div class="boxes">
-    <row class="timer-box">
-      <p class="timer-label">Alive For</p>
+  </container>
+  <script src="scripts/newtab.js"></script>
+</body>
 
-      <col class="timer-widget">
-      <span class="days" id="days-age"></span>
-      <br />
-      <span class="hours" id="hours-age"></span>
-      <span class="mins" id="minutes-age"></span>
-      <span class="secs" id="seconds-age"></span>
-    </col>
-  </row>
-</div>
-      </div>
-
-    </row>
-    </container>
-    <script src="scripts/newtab.js"></script>
-  </body>
 </html>

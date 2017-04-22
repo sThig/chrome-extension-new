@@ -1,4 +1,4 @@
-import { quotes, hello } from './quotes';
+import { quotes, hello, links } from './quotes';
 
 
 let userName = 'Scott';
@@ -66,12 +66,23 @@ const displayTime = (calcFn, id) => {
   document.getElementById(`seconds-${id}`).innerHTML = seconds + 's ';
 }
 
+const displaySite = (linkFn, link, id) => {
+  document.getElementById(`site-${id}`).innerHTML = `<a href="#">hi</a>`
+}
+
 // entrUserName()
 newUser();
 newGreet();
 newQuote();
 
+const linksList = [links.lifehacker, links.reddit];
 const list = [dates.drinks, dates.coffee, dates.meat, dates.age];
+
+linksList.forEach(list => {
+  const linkFn = linksList.list;
+  displaySite(linkFn, links.id, links.link);
+});
+
 
 list.forEach(date => {
   const calcFn = calcTime(date.date);

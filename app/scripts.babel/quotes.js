@@ -18,3 +18,14 @@ export const quotes = [
 export const hello = [
   'Bonjour', 'Hola', 'Guten Tag', 'Ciao', 'Namaste', 'Salaam', 'Konnichiwa', 'Merhaba', 'Szia', 'Marhaba', 'Sannu', 'Jambo', 'Ni Hau', 'Halo',
 ];
+
+export const links = {
+  lifehacker: {
+    link: 'http://lifehacker.com/',
+    id: 'Lifehacker'
+  },
+  Reddit: {
+    link: 'http://reddit.com/',
+    id: 'Reddit'
+  },
+}
