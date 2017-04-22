@@ -1,19 +1,6 @@
 import { quotes, hello } from './quotes';
 
-// const userNameEnter = () => {
-//   localStorage.getItem('userName');
-//   if (userName != '') {
-//     const person = prompt('Please enter your name');
-//   }
-// }
 
-// function enterUserName() {
-//   localStorage.getItem('userName');
-//   if (userName != '') {
-//     const person = prompt('Please enter your name');
-//   }
-// }
-// const person = prompt('Please enter your name');
 let userName = 'Scott';
 const second = 1000;
 const minute = second * 60;
@@ -50,6 +37,7 @@ const newGreet = () => {
 }
 
 const newUser = () => {
+  // names[0] = prompt('New member name?');
   localStorage.setItem('userName', JSON.stringify(userName));
   const retrievedObject = localStorage.getItem('userName');
   document.getElementById('user').innerHTML = JSON.parse(retrievedObject);
