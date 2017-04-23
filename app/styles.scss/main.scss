@@ -112,19 +112,31 @@ h1, #id span, {
   font-family: $header;
 }
 
+@mixin transition($duration) {
+    -webkit-transition: $duration;
+    -moz-transition: $duration;
+    -ms-transition: $duration;
+    -o-transition: $duration;
+    transition: $duration;
+}
+
+
 @mixin links ($link, $visited, $hover, $active) {
     & {
         color: $link;
         text-decoration: none;
         &:visited {
+            @include transition(.2s);
             color: $visited;
             text-decoration: none;
         }
         &:hover {
+            @include transition(.2s);
             color: $hover;
             text-decoration: underline;
         }
         &:active, &:focus {
+            @include transition(.2s);
             color: $active;
             text-decoration: none;
         }
