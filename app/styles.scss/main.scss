@@ -12,7 +12,7 @@ $scorpion: #595959;
 $tundora: #444;
 $mine-shaft: #363636;
 $cod-gray: #111;
-$cod-gray-faded: rgba(0,0,0,0.5);
+$cod-gray-faded: rgba(0,0,0,0.7);
 $white-out: #fff;
 
 
@@ -80,6 +80,10 @@ null  : 12px,
   margin-right: 5px;
 }
 
+.main-image {
+  width: 3%;
+}
+
 .timer-box p {
 font-size: 1.5rem;
  -webkit-font-smoothing: antialiased;
@@ -142,7 +146,7 @@ a {
 $padding: 35px;
 body {
   padding: $padding;
-  background: url("https://source.unsplash.com/collection/141473/spacecapades") no-repeat center center fixed;
+  background: url("https://source.unsplash.com/collection/183821/deer-friends") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

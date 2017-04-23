@@ -49,6 +49,14 @@ const links = {
   markdown: {
     site: 'Markdown',
     link: 'https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet',
+  },
+  patreon: {
+    site: 'Patreon',
+    link: 'https://www.patreon.com/home',
+  },
+  fontpair: {
+    site: 'Font Pair',
+    link: 'http://fontpair.co/',
   }
 };
 
@@ -91,7 +99,7 @@ const displayTime = (calcFn, id) => {
 
 const list = [dates.drinks, dates.coffee, dates.meat, dates.age];
 // const linkList = [linkCreator.Lifehacker, linkCreator.Reddit];
-const linkList = [links.lifehacker, links.reddit, links.goodreads, links.fontawesome, links.googlemusic, links.markdown];
+const linkList = [links.lifehacker, links.reddit, links.goodreads, links.fontawesome, links.googlemusic, links.markdown, links.fontpair, links.patreon];
 
 function createLinks(link, site) {
   document.getElementById(`site-${site}`).innerHTML = '<a href=\'' + `${link}` + '\' >' + '<img class=\'link-image\' src= \'/static/link.svg\'>' + `${site}` + '</a>';
