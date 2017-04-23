@@ -43,6 +43,13 @@ $h2-font-sizes: (
   1024px: 62px
 );
 
+$ul-font-sizes: (
+null  : 12px,
+480px : 14px,
+640px : 16px,
+1024px: 18px
+);
+
 @mixin font-size($fs-map) {
   @each $fs-breakpoint, $fs-font-size in $fs-map {
     @if $fs-breakpoint == null {
@@ -62,11 +69,15 @@ $h2-font-sizes: (
   font-style: normal;
 }
 
- #quotate, ul, input, button {
+ #quotate, input, button {
   @include font-size($p-font-sizes);
   -webkit-font-smoothing: antialiased;
   font-family: $paragraph;
   font-style: italic;
+}
+
+.link-image {
+  margin-right: 5px;
 }
 
 .timer-box p {
@@ -91,12 +102,41 @@ font-size: 2.5rem;
 
 
 
-h1, #id span {
+h1, #id span, {
   @include font-size($h1-font-sizes);
   -webkit-font-smoothing: antialiased;
   font-family: $header;
 }
 
+@mixin links ($link, $visited, $hover, $active) {
+    & {
+        color: $link;
+        text-decoration: none;
+        &:visited {
+            color: $visited;
+            text-decoration: none;
+        }
+        &:hover {
+            color: $hover;
+            text-decoration: underline;
+        }
+        &:active, &:focus {
+            color: $active;
+            text-decoration: none;
+        }
+    }
+}
+
+a { @include links($heliotrope, $silver-chalice, $white-out, $bondi-blue);
+    font-family: $header;
+    @include font-size($ul-font-sizes);
+ }
+
+//Styling not needed for demo
+a {
+    padding: 4px 10px;
+    text-shadow: none;
+}
 
 
 $padding: 35px;
@@ -167,4 +207,23 @@ container {
   align-items: baseline;
   flex-direction: row;
   width: 100%;
+}
+
+// list/links items
+.sites {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1em 0;
+
+  ul {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+  }
 }

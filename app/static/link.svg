@@ -1,12 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="38px" height="23px" viewBox="0 0 38 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+<svg width="20px" height="14px" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>link</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <desc>Created By Scott Thigpen</desc>
+    <defs>
+        <path d="M3.40685425,4.34619408 L1.40685425,4.34619408 L1.40685425,7.47248534 C1.40685425,10.2336923 3.6454305,12.4675144 6.40685425,12.4675144 C9.16265906,12.4675144 11.4068542,10.2311637 11.4068542,7.47248534 L11.4068542,4.34619408 L9.40685425,4.34619408 L9.40685425,7.46718469 C9.40685425,9.12422104 8.06033713,10.4675144 6.40685425,10.4675144 C4.75,10.4675144 3.40685425,9.11886993 3.40685425,7.46718469 L3.40685425,4.34619408 Z" id="path-1"></path>
+        <filter x="-70.0%" y="-147.8%" width="240.0%" height="358.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M10.9068542,10.4675144 L8.90685425,10.4675144 L8.90685425,7.34122316 C8.90685425,4.58254477 11.1510494,2.34619408 13.9068542,2.34619408 C16.668278,2.34619408 18.9068542,4.5800162 18.9068542,7.34122316 L18.9068542,10.4675144 L16.9068542,10.4675144 L16.9068542,7.34652381 C16.9068542,5.69483857 15.5637085,4.34619408 13.9068542,4.34619408 C12.2533714,4.34619408 10.9068542,5.68948745 10.9068542,7.34652381 L10.9068542,10.4675144 Z" id="path-3"></path>
+        <filter x="-70.0%" y="-61.6%" width="240.0%" height="321.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="link" stroke="#FFFFFF" stroke-width="2.625">
-            <path d="M11.5,21.6875 C5.87359911,21.6875 1.3125,17.1264009 1.3125,11.5 C1.3125,5.87359911 5.87359911,1.3125 11.5,1.3125 C17.1264009,1.3125 21.6875,5.87359911 21.6875,11.5 C21.6875,17.1264009 17.1264009,21.6875 11.5,21.6875 Z M26.5,21.6875 C20.8735991,21.6875 16.3125,17.1264009 16.3125,11.5 C16.3125,5.87359911 20.8735991,1.3125 26.5,1.3125 C32.1264009,1.3125 36.6875,5.87359911 36.6875,11.5 C36.6875,17.1264009 32.1264009,21.6875 26.5,21.6875 Z" id="Oval"></path>
+        <g id="link">
+            <g id="Path" transform="translate(6.406854, 8.406854) rotate(45.000000) translate(-6.406854, -8.406854) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <path stroke="#FFFFFF" stroke-width="1" d="M2.90685425,4.84619408 L2.90685425,7.46718469 C2.90685425,9.39671043 4.47555306,10.9675144 6.40685425,10.9675144 C8.33756936,10.9675144 9.90685425,9.3992744 9.90685425,7.46718469 L9.90685425,4.84619408 L10.9068542,4.84619408 L10.9068542,7.47248534 C10.9068542,9.95288578 8.8886553,11.9675144 6.40685425,11.9675144 C3.92054804,11.9675144 1.90685425,9.95652604 1.90685425,7.47248534 L1.90685425,4.84619408 L2.90685425,4.84619408 Z"></path>
+            </g>
+            <g id="Path-Copy" transform="translate(13.906854, 6.406854) rotate(45.000000) translate(-13.906854, -6.406854) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <path stroke="#FFFFFF" stroke-width="1" d="M10.4068542,9.96751442 L9.40685425,9.96751442 L9.40685425,7.34122316 C9.40685425,4.86082272 11.4250532,2.84619408 13.9068542,2.84619408 C16.3931605,2.84619408 18.4068542,4.85718246 18.4068542,7.34122316 L18.4068542,9.96751442 L17.4068542,9.96751442 L17.4068542,7.34652381 C17.4068542,5.41699807 15.8381554,3.84619408 13.9068542,3.84619408 C11.9761391,3.84619408 10.4068542,5.4144341 10.4068542,7.34652381 L10.4068542,9.96751442 Z"></path>
+            </g>
         </g>
     </g>
 </svg>

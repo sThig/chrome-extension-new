@@ -1,5 +1,4 @@
-import { quotes, hello, links } from './quotes';
-
+import { quotes, hello } from './quotes';
 
 let userName = 'Scott';
 const second = 1000;
@@ -26,6 +25,33 @@ const dates = {
   },
 }
 
+const links = {
+  lifehacker: {
+    site: 'Lifehacker',
+    link: 'http://lifehacker.com/',
+  },
+  reddit: {
+    site: 'Reddit',
+    link: 'http://reddit.com/',
+  },
+  goodreads: {
+    site: 'Goodreads',
+    link: 'https://www.goodreads.com/review/list/23076999?shelf=2017-reads',
+  },
+  fontawesome: {
+    site: 'Fontawesome',
+    link: 'http://fontawesome.io/icons/',
+  },
+  googlemusic: {
+    site: 'GMusic',
+    link: 'https://play.google.com/music/listen',
+  },
+  markdown: {
+    site: 'Markdown',
+    link: 'https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet',
+  }
+};
+
 const newQuote = () => {
   const randomQuote = Math.floor(Math.random() * (quotes.length));
   document.getElementById('quotate').innerHTML = quotes[randomQuote];
@@ -43,9 +69,6 @@ const newUser = () => {
   document.getElementById('user').innerHTML = JSON.parse(retrievedObject);
 
 }
-
-
-
 
 const calcTime = startDate => () => {
   const now = new Date();
@@ -66,22 +89,27 @@ const displayTime = (calcFn, id) => {
   document.getElementById(`seconds-${id}`).innerHTML = seconds + 's ';
 }
 
-const displaySite = (linkFn, link, id) => {
-  document.getElementById(`site-${id}`).innerHTML = `<a href="#">hi</a>`
+const list = [dates.drinks, dates.coffee, dates.meat, dates.age];
+// const linkList = [linkCreator.Lifehacker, linkCreator.Reddit];
+const linkList = [links.lifehacker, links.reddit, links.goodreads, links.fontawesome, links.googlemusic, links.markdown];
+
+function createLinks(link, site) {
+  document.getElementById(`site-${site}`).innerHTML = '<a href=\'' + `${link}` + '\' >' + '<img class=\'link-image\' src= \'/static/link.svg\'>' + `${site}` + '</a>';
 }
 
-// entrUserName()
 newUser();
 newGreet();
 newQuote();
 
-const linksList = [links.lifehacker, links.reddit];
-const list = [dates.drinks, dates.coffee, dates.meat, dates.age];
 
-linksList.forEach(list => {
-  const linkFn = linksList.list;
-  displaySite(linkFn, links.id, links.link);
+
+linkList.forEach(link => {
+  link.link;
+  link.site;
+  console.log(link.link, link.site);
+  createLinks(link.link, link.site);
 });
+
 
 
 list.forEach(date => {
