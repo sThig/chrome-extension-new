@@ -71,7 +71,7 @@ const newGreet = () => {
 }
 
 const newUser = () => {
-  // names[0] = prompt('New member name?');
+  // fix new user verbiage
   localStorage.setItem('userName', JSON.stringify(userName));
   const retrievedObject = localStorage.getItem('userName');
   document.getElementById('user').innerHTML = JSON.parse(retrievedObject);
@@ -105,11 +105,9 @@ function createLinks(link, site) {
   document.getElementById(`site-${site}`).innerHTML = '<a href=\'' + `${link}` + '\' >' + '<img class=\'link-image\' src= \'/static/link.svg\'>' + `${site}` + '</a>';
 }
 
-newUser();
+// newUser();
 newGreet();
 newQuote();
-
-
 
 linkList.forEach(link => {
   link.link;
@@ -118,12 +116,10 @@ linkList.forEach(link => {
   createLinks(link.link, link.site);
 });
 
-
-
 list.forEach(date => {
   const calcFn = calcTime(date.date);
 
   setInterval(() => {
     displayTime(calcFn, date.id);
-  }, 50);
+  }, 1000);
 });

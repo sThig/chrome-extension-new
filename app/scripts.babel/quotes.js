@@ -17,7 +17,7 @@ export const quotes = [
   '\"Who knows what\'s good or bad?\"',
   '\"Nobody can tell you the meaning of life\"',
   '\"People Don’t Want Something Truly New, They Want the Familiar Done Differently.\"',
-  '\"A user experience is not just pixels & CSS. It\'s made of policies, pricing models, bugs, performance, training...& above all, org values.\"',
+  '\"A user experience is not just pixels & CSS. It\'s made of policies, pricing models, bugs, performance, training and above all, org values.\"',
   '\"No one who can rise before dawn three hundred and sixty days a year fails to make his family rich\"',
   '\"I believe that financially wealthy people are those who have enough money coming in without having to work to finance their purpose in life. Now, please realize that this definition presents a challenge to anyone who accepts it. To be financially wealthy you must have a purpose for your life.\"',
 ];
