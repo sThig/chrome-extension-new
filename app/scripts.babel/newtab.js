@@ -47,6 +47,57 @@ const displayTime = (calcFn, id) => {
   document.getElementById(`seconds-${id}`).innerHTML = seconds + 's ';
 }
 
+function displayVoice() {
+  const newday = new Date();
+  const hr = newday.getHours();
+  if (hr == 1) {
+  document.getElementById('personal-message').innerHTML = 'Good morning bud! It’s 1 AM and you’re still up! ';
+ }
+  if (hr == 2) {
+  document.getElementById('personal-message').innerHTML = 'Hey, it is past 2 AM! Seriously, stop coding';
+ }
+  if (hr == 3) {
+  document.getElementById('personal-message').innerHTML = 'Hey, it is almost 3 AM! Insomnia or are you a vampire or what?';
+ }
+  if (hr == 4) {
+  document.getElementById('personal-message').innerHTML = 'Dude! It’s 4 AM! Get up and get your ass to the gym!';
+ }
+  if (hr == 5) {
+  document.getElementById('personal-message').innerHTML = 'GO TO THE GYM!!!';
+ }
+  if (hr == 6) {
+  document.getElementById('personal-message').innerHTML = 'If you see this, you need to be coding;'
+ }
+  if ((hr == 6) || (hr == 7) || (hr == 8) || (hr == 9) || (hr == 10)) {
+  document.getElementById('personal-message').innerHTML = 'Good Morning!';
+ }
+  if (hr == 11) {
+  document.getElementById('personal-message').innerHTML = '11 AM! Time for lunch!';
+ }
+  if (hr == 12) {
+  document.getElementById('personal-message').innerHTML = 'Noon! Time for second lunch!';
+ }
+  if (hr == 14) {
+  document.getElementById('personal-message').innerHTML = 'It\'s 2 PM. Time for third lunch!';
+ }
+  if ((hr == 15) || (hr == 13)) {
+  document.getElementById('personal-message').innerHTML = 'Good Afternoon!';
+ }
+ if (hr == 16) {
+ document.getElementById('personal-message').innerHTML = 'It\'s Four! Home Stretch!';
+}
+  if ((hr == 17) || (hr == 18) || (hr == 19) || (hr == 20) || (hr == 21) || (hr == 22)) {
+  document.getElementById('personal-message').innerHTML = 'Good Evening! Welcome to prime time on the web!';
+ }
+  if (hr == 23) {
+  document.getElementById('personal-message').innerHTML = 'It\'s almost midnight. Aren\'t you sleepy yet?';
+ }
+  if (hr==0) {
+    document.getElementById('personal-message').innerHTML = 'Stop Coding!';
+ }
+};
+
+
 const list = [dates.drinks, dates.coffee, dates.meat, dates.age];
 // const linkList = [linkCreator.Lifehacker, linkCreator.Reddit];
 const linkList = [links.lifehacker, links.reddit, links.goodreads, links.fontawesome, links.googlemusic, links.markdown, links.fontpair, links.patreon];
@@ -55,7 +106,7 @@ function createLinks(link, site) {
   document.getElementById(`site-${site}`).innerHTML = '<a href=\'' + `${link}` + '\' >' + '<img class=\'link-image\' src= \'/static/link.svg\'>' + `${site}` + '</a>';
 }
 
-// newUser();
+displayVoice();
 newGreet();
 newQuote();
 

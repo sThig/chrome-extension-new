@@ -69,7 +69,7 @@ null  : 12px,
   font-style: normal;
 }
 
- #quotate, input, button {
+#quotate, input, button {
   @include font-size($p-font-sizes);
   -webkit-font-smoothing: antialiased;
   font-family: $paragraph;
@@ -91,7 +91,7 @@ font-size: 1.5rem;
  font-style: italic;
 }
 
-.hours, .mins, .secs {
+ #personal-message, .hours, .mins, .secs {
   color: $silver-chalice;
   font-size: 1.5rem;
    -webkit-font-smoothing: antialiased;
@@ -106,7 +106,7 @@ font-size: 2.5rem;
 
 
 
-h1, #id span, {
+h1, #id span {
   @include font-size($h1-font-sizes);
   -webkit-font-smoothing: antialiased;
   font-family: $header;
