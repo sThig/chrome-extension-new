@@ -2,7 +2,16 @@
 
 export const quotes = [
   '\"Is it nice is it\'s necessary is it true?\"',
+  '\"Everybody Counts\"',
+  '\"Persistence is a great substitution for talent\"',
+  '\"Can We Fix It?\"',
+  '\"The most successful simply see themselves working between vacations\"',
+  '\"What matters most?\"',
+  '\"If you\'ve never failed, you\'ve never tried anything new\"',
+  '\"Empathize with other by saying \'Just like me\'\"',
   '\"Fail Better.\"',
+  '\"Smiling relaxes hundred of muscles in your face\"',
+  '\"Breathe in and out, you\'re alive\"',
   '\"When life happens, you can be either the author of your life or the victim of it.\"',
   '\"In my walks, every man I meet is my superior in some way, and in that I learn from him.\"',
   '\"Today I will do what others won\'t, so tomorrow I can accomplish what others can\'t.\"',
