@@ -1,64 +1,10 @@
-import { quotes, hello } from './quotes';
+import { quotes, hello, dates, links } from './database';
 
 let userName = 'Scott';
 const second = 1000;
 const minute = second * 60;
 const hour = minute * 60;
 const day = hour * 24;
-
-const dates = {
-  drinks: {
-    date: new Date('09/26/2016 12:00 AM'),
-    id: 'drinks'
-  },
-  coffee: {
-    date: new Date('03/09/2017 12:01 AM'),
-    id: 'coffee'
-  },
-  meat: {
-    date: new Date('03/18/2017 01:00 AM'),
-    id: 'meat'
-  },
-  age: {
-    date: new Date('05/27/1973 12:00 PM'),
-    id: 'age'
-  },
-}
-
-const links = {
-  lifehacker: {
-    site: 'Lifehacker',
-    link: 'http://lifehacker.com/',
-  },
-  reddit: {
-    site: 'Reddit',
-    link: 'http://reddit.com/',
-  },
-  goodreads: {
-    site: 'Goodreads',
-    link: 'https://www.goodreads.com/review/list/23076999?shelf=2017-reads',
-  },
-  fontawesome: {
-    site: 'Fontawesome',
-    link: 'http://fontawesome.io/icons/',
-  },
-  googlemusic: {
-    site: 'GMusic',
-    link: 'https://play.google.com/music/listen',
-  },
-  markdown: {
-    site: 'Markdown',
-    link: 'https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet',
-  },
-  patreon: {
-    site: 'Patreon',
-    link: 'https://www.patreon.com/home',
-  },
-  fontpair: {
-    site: 'Font Pair',
-    link: 'http://fontpair.co/',
-  }
-};
 
 const newQuote = () => {
   const randomQuote = Math.floor(Math.random() * (quotes.length));
@@ -70,8 +16,8 @@ const newGreet = () => {
   document.getElementById('hi').innerHTML = hello[randomGreet];
 }
 
-const newUser = () => {
-  // fix new user verbiage
+//in production
+const enterUserName = () => {
   localStorage.setItem('userName', JSON.stringify(userName));
   const retrievedObject = localStorage.getItem('userName');
   document.getElementById('user').innerHTML = JSON.parse(retrievedObject);
@@ -88,9 +34,13 @@ const calcTime = startDate => () => {
   return [now, distance, days, hours, minutes, seconds];
 }
 
+const displayGraphic = (id) => {
+  document.getElementById(`graphic-${id}`).innerHTML = '<img class=\'link-image\' src= \'/static/' + `${id}.svg` + '\'>';
+}
+
+
 const displayTime = (calcFn, id) => {
   const [now, distance, days, hours, minutes, seconds] = calcFn();
-
   document.getElementById(`days-${id}`).innerHTML = days + ' Days';
   document.getElementById(`hours-${id}`).innerHTML = hours + 'h ';
   document.getElementById(`minutes-${id}`).innerHTML = minutes + 'm ';
@@ -120,6 +70,7 @@ list.forEach(date => {
   const calcFn = calcTime(date.date);
 
   setInterval(() => {
+    displayGraphic(date.id);
     displayTime(calcFn, date.id);
-  }, 1000);
+  }, 50);
 });
