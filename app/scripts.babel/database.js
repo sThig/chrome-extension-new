@@ -88,3 +88,5 @@ export const links = {
     link: 'http://fontpair.co/',
   }
 };
+
+export const morning = ['Güete Morge','Safro bricho','Buen diya','Bonos díes',];

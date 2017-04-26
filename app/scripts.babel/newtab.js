@@ -1,4 +1,4 @@
-import { quotes, hello, dates, links } from './database';
+import { quotes, hello, dates, links, morning } from './database';
 
 let userName = 'Scott';
 const second = 1000;
@@ -9,6 +9,10 @@ const day = hour * 24;
 const newQuote = () => {
   const randomQuote = Math.floor(Math.random() * (quotes.length));
   document.getElementById('quotate').innerHTML = quotes[randomQuote];
+}
+
+const differentMorningGreeting = () => {
+  const randomMorning = Math.floor(Math.random() * (morning.length));
 }
 
 const newGreet = () => {
@@ -84,7 +88,7 @@ function displayVoice() {
   document.getElementById('personal-message').innerHTML = 'Good Afternoon!';
  }
  if (hr == 16) {
- document.getElementById('personal-message').innerHTML = 'It\'s Four! Home Stretch!';
+ document.getElementById('personal-message').innerHTML = differentMorningGreeting + 'It\'s Four! Home Stretch!';
 }
   if ((hr == 17) || (hr == 18) || (hr == 19) || (hr == 20) || (hr == 21) || (hr == 22)) {
   document.getElementById('personal-message').innerHTML = 'Good Evening! Welcome to prime time on the web!';
