@@ -155,5 +155,5 @@ list.forEach(date => {
   setInterval(() => {
     displayGraphic(date.id);
     displayTime(calcFn, date.id);
-  }, 50);
+  }, 1000);
 });

@@ -258,9 +258,9 @@ export const starWarsTrivia = [
 
 'Who’s crew did Finn attempt to join at Maz’s Castle for passage to the Outer Rim? The Meson Martinet, under Captain Sidon Ithano.',
 
-'What advice did Han Solo give Finn as they entered Maz’s Castle? “Whatever you do, don’t stare…”',
+'What advice did Han Solo give Finn as they entered Maz’s Castle? \'Whatever you do, don’t stare…\'',
 
-'What did Maz refer to the First Order as when they arrived on Takodana? “Those beasts! They’re here!”',
+'What did Maz refer to the First Order as when they arrived on Takodana? \'Those beasts! They’re here!\'',
 
 'What Imperial office did Tseebo work for? The Imperial Information Office.',
 
@@ -270,7 +270,7 @@ export const starWarsTrivia = [
 
 'What ship transported Obi-Wan and Satine Kryze on their journey to Coruscant? The Coronet.',
 
-'Spoken by Obi-Wan, what are the final words heard in Rey’s vision? “…these are your first steps.”',
+'Spoken by Obi-Wan, what are the final words heard in Rey’s vision? \'…these are your first steps.\'',
 
 'What bounty hunter did Obi-Wan impersonate to prevent an assassination? Rako Hardeen.',
 
@@ -292,7 +292,7 @@ export const starWarsTrivia = [
 
 'What was the name of Darth Maul’s ship featured in The Phantom Menace? The Scimitar',
 
-'How many AT-ATs did Agent Kallus command in the Star Wars Rebels episode “Relics of the Old Republic”? Three',
+'How many AT-ATs did Agent Kallus command in the Star Wars Rebels episode \'Relics of the Old Republic\'? Three',
 
 'Who was the only Rebel to harpoon an AT-AT during the Battle of Hoth? Wes Janson',
 
@@ -314,11 +314,11 @@ export const starWarsTrivia = [
 
 'How many stormtroopers did Leia kill before she was stunned on Tantive IV?One',
 
-'What did Princess Leia tell Luke Skywalker when he saw her being escorted by stormtroopers in Cloud City?“It’s a trap!”',
+'What did Princess Leia tell Luke Skywalker when he saw her being escorted by stormtroopers in Cloud City?\'It’s a trap!\'',
 
-'To whom did C-3PO say, “You have a responsibility to me, so don’t do anything foolish”?Chewbacca',
+'To whom did C-3PO say, \'You have a responsibility to me, so don’t do anything foolish\'?Chewbacca',
 
-'What did C-3PO “thank the maker” for?An oil bath',
+'What did C-3PO \'thank the maker\' for?An oil bath',
 
 'What did C-3PO giddily announce that he had isolated on the Millennium Falcon?The reverse powerflux coupling.',
 
@@ -340,13 +340,13 @@ export const starWarsTrivia = [
 
 'Where does Rey live on Jakku?Inside of a toppled AT-AT.',
 
-'According to Han Solo, how long as Maz Kanata run “this watering hole”?“… a thousand years.”',
+'According to Han Solo, how long as Maz Kanata run \'this watering hole\'?\'… a thousand years.\'',
 
 'What creature is used in some space stations and on some planets as an easy means of waste disposal?Dianoga.',
 
 'Where is Takodana located?The Western Reaches, in the Tashtor Sector.',
 
-'To which Ewok was C-3PO referring when he said, “I’m afraid our furry companion has gone and done something rather rash”?Paploo',
+'To which Ewok was C-3PO referring when he said, \'I’m afraid our furry companion has gone and done something rather rash\'?Paploo',
 
 'How many facial tentacles do Quarren have?Four',
 
@@ -356,13 +356,13 @@ export const starWarsTrivia = [
 
 'What is the name of the leader who Kylo Ren serves?Kylo Ren serves Supreme Leader Snoke.',
 
-'What did Yoda tell Luke Skywalker about his weapons when Luke was going into the cave on Dagobah?Yoda told Luke, “Your weapons – you will not need them.”',
+'What did Yoda tell Luke Skywalker about his weapons when Luke was going into the cave on Dagobah?Yoda told Luke, \'Your weapons – you will not need them.\'',
 
 'What reason did Luke Skywalker give Yoda for wanting to become a Jedi?Luke Skywalker said he wanted to become a Jedi because of his father.',
 
 'What did Luke Skywalker tell Han Solo he was going to investigate on Hoth?Luke Skywalker told Han Solo he was going to investigate a meteorite on Hoth.',
 
-'Who exclaimed, “Into the garbage chute, fly boy!”?Princess Leia',
+'Who exclaimed, \'Into the garbage chute, fly boy!\'?Princess Leia',
 
 'Who was the costume designer on The Empire Strikes Back?John Mollo',
 
@@ -376,13 +376,13 @@ export const starWarsTrivia = [
 
 'What reason did Yoda give Obi-Wan for not being able to train Luke Skywalker? Luke was too old to begin training',
 
-'Who said, “There hasn’t been a full-scale war since the formation of the Republic“?Sio Bibble',
+'Who said, \'There hasn’t been a full-scale war since the formation of the Republic\'?Sio Bibble',
 
 'Who was Prime Minister of Kamino?Lama Su',
 
 'What species was Salacious Crumb?Kowakian monkey-lizard',
 
-'Who said, “You are unwise to lower your defenses”?Darth Vader',
+'Who said, \'You are unwise to lower your defenses\'?Darth Vader',
 
 'Where on Tatooine did Luke Skywalker race his T-16 Skyhopper?Beggar’s Canyon',
 
@@ -392,17 +392,17 @@ export const starWarsTrivia = [
 
 'How long does it take for a sarlacc to digest its victims? Over one thousand years',
 
-'Who said “Don’t try to frighten us with your sorcerers ways, Lord Vader“? Admiral Motti',
+'Who said \'Don’t try to frighten us with your sorcerers ways, Lord Vader\'? Admiral Motti',
 
 'How many legs do dactillions have? Four',
 
 'Who went to look for C-3PO in Cloud City after he went missing? Chewbacca',
 
-'Who said, “You were right about one thing, Master. The negotiations were short.”? Obi-Wan Kenobi',
+'Who said, \'You were right about one thing, Master. The negotiations were short.\'? Obi-Wan Kenobi',
 
 'Who was Production Designer of Attack of the Clones? Gavin Bocquet',
 
-'What did General Grievous call Obi-Wan Kenobi on Utapau? “Jedi Slime”',
+'What did General Grievous call Obi-Wan Kenobi on Utapau? \'Jedi Slime\'',
 
 'What did the deck officer tell Han Solo would happen before he reached the first marker? That Han’s tauntaun would freeze',
 
@@ -428,13 +428,13 @@ export const starWarsTrivia = [
 
 'Why couldn’t Luke, Han, Leia and Chewbacca blast their way out of the trash compactor? It was magnetically sealed.',
 
-'What did Darth Vader tell Admiral Piett regarding Shuttle Tydirium? “Leave them to me”',
+'What did Darth Vader tell Admiral Piett regarding Shuttle Tydirium? \'Leave them to me\'',
 
-'What did Princess Leia call Chewbacca shortly after they escaped the trash compactor? Princess Leia called Chewbacca a “walking carpet.”',
+'What did Princess Leia call Chewbacca shortly after they escaped the trash compactor? Princess Leia called Chewbacca a \'walking carpet.\'',
 
 'What was wrong with R5-D4? R5-D4 had a bad motivator.',
 
-'Who said, “One thing’s for sure — we’re all gonna be a lot thinner”? Han Solo',
+'Who said, \'One thing’s for sure — we’re all gonna be a lot thinner\'? Han Solo',
 
 'Where was the Echo Base evacuation fleet located? The Echo Base evacuation fleet was located at the western ridge.',
 
@@ -452,7 +452,7 @@ export const starWarsTrivia = [
 
 'Who was the first to volunteer to be on Han Solo\'s command crew on their mission to Endor? Chewbacca',
 
-'Who referred to Darth Vader as “twisted and evil”? Obi-Wan Kenobi',
+'Who referred to Darth Vader as \'twisted and evil\'? Obi-Wan Kenobi',
 
 'How many kilometers in diameter was the second Death Star? The second Death Star was 160 kilometers in diameter.',
 
@@ -488,17 +488,17 @@ export const starWarsTrivia = [
 
 'What act was Senator Amidala fighting when she returned to Coruscant to speak to the Senate? The Military Creation Act',
 
-'What were Anakin Skywalker\'s first words after being christened “Darth Vader“? “Thank you, my Master.”',
+'What were Anakin Skywalker\'s first words after being christened \'Darth Vader\'? \'Thank you, my Master.\'',
 
 'What service do GNK droids provide? GNK droids, also known as Gonk or Power Droids, are mobile power generators.',
 
 'How did Yoda feel about Obi-Wan taking Anakin Skywalker as his Padawan? Yoda did not agree with the council’s decision.',
 
-'What does TIE in “TIE fighter” stand for? Twin ion engine',
+'What does TIE in \'TIE fighter\' stand for? Twin ion engine',
 
-'Who said, “Army or not, you must realize you are doomed”? General Grievous',
+'Who said, \'Army or not, you must realize you are doomed\'? General Grievous',
 
-'What was C-3PO\'s first exclamation after he was turned back on after being shot? “Stormtroopers? Here?” I’ve got to warn the others! Oh no, I’ve been shot!”',
+'What was C-3PO\'s first exclamation after he was turned back on after being shot? \'Stormtroopers? Here?\' I’ve got to warn the others! Oh no, I’ve been shot!\'',
 
 'What did Admiral Ackbar say the fighters were going to do during the attack on the Death Star? Fly into the superstructure and attempt to knock out the main reactor.',
 
@@ -510,7 +510,7 @@ export const starWarsTrivia = [
 
 'Who introduced Obi-Wan Kenobi and Luke Skywalker to Han Solo? Chewbacca',
 
-'Who called Han Solo a “nerf herder”? Princess Leia',
+'Who called Han Solo a \'nerf herder\'? Princess Leia',
 
 'Which pilot flew as Red Six during the Battle of Yavin? Jek Porkins',
 
@@ -524,7 +524,7 @@ export const starWarsTrivia = [
 
 'According to Princess Leia, why was their escape from the Death Star so easy? The Imperials were tracking them.',
 
-'What did C-3PO yell to distract stormtroopers outside the rear entrance to the shield bunker? “I say! Over there! Where you looking for me?”',
+'What did C-3PO yell to distract stormtroopers outside the rear entrance to the shield bunker? \'I say! Over there! Where you looking for me?\'',
 
 'Where, when hearing the news of the Empire’s fall, did citizens topple a statue of Emperor Palpatine? Corusant',
 
@@ -536,7 +536,7 @@ export const starWarsTrivia = [
 
 'Whom did R2-D2 tell Luke Skywalker he belonged to? R2-D2 told Luke Skywalker he belonged to Obi-Wan Kenobi.',
 
-'What did Princess Leia say when Luke Skywalker came to rescue her? She said, “Aren’t you a little short or a stormtrooper?”',
+'What did Princess Leia say when Luke Skywalker came to rescue her? She said, \'Aren’t you a little short or a stormtrooper?\'',
 
 'How fast did the Millennium Falcon make the Kessel Run? The Millennium Falcon made the Kessel Run in in less than twelve parsecs.',
 
@@ -544,9 +544,9 @@ export const starWarsTrivia = [
 
 'Who finally fixed the hyperdrive on the Millennium Falcon? R2-D2',
 
-'What did Luke Skywalker ask Yoda about his vision of the future? Luke Skywalker asked Yoda “Will they die?” about his vision of the future.',
+'What did Luke Skywalker ask Yoda about his vision of the future? Luke Skywalker asked Yoda \'Will they die?\' about his vision of the future.',
 
-'Where did C-3PO tell the stormtroopers the “madmen” were headed? The prison level',
+'Where did C-3PO tell the stormtroopers the \'madmen\' were headed? The prison level',
 
 'Where, according to Dexter Jettster is Kamino located? Twelve parsecs outside the Rishi maze.',
 
@@ -578,7 +578,7 @@ export const starWarsTrivia = [
 
 'Where did Obi-Wan Kenobi go to get information about the dart that had killed Zam Wesell after the temple droids failed him? Obi-Wan Kenobi went to Dexter’s Diner.',
 
-'Who was jokingly called “Wormie” as a youngster? Luke Skywalker',
+'Who was jokingly called \'Wormie\' as a youngster? Luke Skywalker',
 
 'What dominates Tipoca City? The Clone Military Education Complex dominates Tipoca City.',
 
@@ -592,11 +592,11 @@ export const starWarsTrivia = [
 
 'What type of weapon did Han Solo use? Han carried a DL-44 heavy blaster pistol.',
 
-'Who said, “As a member of the Senate, maybe I can find a diplomatic solution to this mess”? Senator Amidala',
+'Who said, \'As a member of the Senate, maybe I can find a diplomatic solution to this mess\'? Senator Amidala',
 
 'Where on Tatooine did the droids escape pod land? The droids’ escape pod landed in the Western Dune Sea.',
 
-'Who said, “He’s got too much of his father in him”? Beru Lars.',
+'Who said, \'He’s got too much of his father in him\'? Beru Lars.',
 
 'Why did the Jedi and Queen Amidala have to land on Tatooine? The Jedi and Queen Amidala had to land on Tatooine because their hyperdrive engine had been damaged.',
 
@@ -604,7 +604,7 @@ export const starWarsTrivia = [
 
 'Who due to his superior\'s incompetence, was promoted from Captain to Admiral during the Battle of Hoth? Captain Piett was promoted to Admiral.',
 
-'Which character snapped, “And you said it was pretty here”? C-3PO snapped, “And you said it was pretty here.”',
+'Which character snapped, \'And you said it was pretty here\'? C-3PO snapped, \'And you said it was pretty here.\'',
 
 'To which species did Max Rebo belong? Max Rebo is an Ortolan.',
 
@@ -628,7 +628,7 @@ export const starWarsTrivia = [
 
 'What did Han Solo say was wrong in the detention center when he was contacted? Han said they had a weapons malfunction in the detention center.',
 
-'Who said, “You have paid the price for your lack of vision”? Emperor Palpatine said “You have paid the price for your lack of vision.”',
+'Who said, \'You have paid the price for your lack of vision\'? Emperor Palpatine said \'You have paid the price for your lack of vision.\'',
 
 'Who impersonated an AT-ST pilot, getting the Imperials to open the bunker door? Han Solo impersonated an AT-ST pilot.',
 
@@ -640,7 +640,7 @@ export const starWarsTrivia = [
 
 'What planet, according to Luke was perfectly safe for droids? Dagobah, according to Luke, was perfectly safe for droids.',
 
-'Who said, “Bo Shuda!”? Jabba the Hutt said, “Bo Shuda!”',
+'Who said, \'Bo Shuda!\'? Jabba the Hutt said, \'Bo Shuda!\'',
 
 'What did Darth Vader tell Luke Skywalker that Obi-Wan had been wise to hide from Vader? Darth Vader told Luke Skywalker that Obi-Wan had been wise to hide Princess Leia.',
 
