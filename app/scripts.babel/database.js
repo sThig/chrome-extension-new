@@ -138,16 +138,16 @@ export const funFacts = [
   'Facebook, Skype and Twitter are all banned in China.',
   '95% of people text things they could never say in person.',
   'The Titanic was the first ship to use the SOS signal.',
-  'In Poole, ‘Pound World\' went out of business because of a store across the road called \'99p Stores\', which was selling the same products but for just 1 pence cheaper! ',
+  'In Poole, \'Pound World\' went out of business because of a store across the road called \'99p Stores\', which was selling the same products but for just 1 pence cheaper! ',
   'About 8,000 Americans are injured by musical instruments each year.',
-  'The French language has seventeen different words for ‘surrender\'.',
+  'The French language has seventeen different words for \'surrender\'.',
   'Nearly three percent of the ice in Antarctic glaciers is penguin urine.',
   'Bob Dylan\'s real name is Robert Zimmerman.',
   'A crocodile can\'t poke its tongue out :p',
   'Sea otters hold hands when they sleep so they don\'t drift away from each other.',
   'A small child could swim through the veins of a blue whale.',
   'Bin Laden\'s death was announced on 1st May 2011. Hitler\'s death was announced on 1st May 1945.',
-  'J.K. Rowling chose the unusual name ‘Hermione\' so young girls wouldn\'t be teased for being nerdy!',
+  'J.K. Rowling chose the unusual name \'Hermione\' so young girls wouldn\'t be teased for being nerdy!',
   'Hewlett-Packard\'s name was decided in a coin toss.',
   'The total number of steps in the Eiffel Tower are 1665.',
   'The Pokémon Hitmonlee and Hitmonchan are based off of Bruce Lee and Jackie Chan.',
@@ -266,7 +266,7 @@ export const starWarsTrivia = [
 
 'On what planet did Cad Bane capture Bolla Ropal? Devaron',
 
-'What did Ganodi‘s fellow younglings call their circus act when they infiltrated Hondo Ohnaka‘s stronghold? Animal Instincts.',
+'What did Ganodi\'s fellow younglings call their circus act when they infiltrated Hondo Ohnaka\'s stronghold? Animal Instincts.',
 
 'What ship transported Obi-Wan and Satine Kryze on their journey to Coruscant? The Coronet.',
 
@@ -282,7 +282,7 @@ export const starWarsTrivia = [
 
 'What Jedi Younglings class are seen training with lightsabers in Attack of the Clones? The Bear Clan',
 
-'Where did Pre Vizsla‘s darksaber come from? It was taken from the Jedi Temple during the fall of the Old Republic.',
+'Where did Pre Vizsla\'s darksaber come from? It was taken from the Jedi Temple during the fall of the Old Republic.',
 
 'Where must Jedi younglings travel to obtain Kyber crystals for their lightsabers during the rite of passage known as the Gathering? Ilum',
 
@@ -296,7 +296,7 @@ export const starWarsTrivia = [
 
 'Who was the only Rebel to harpoon an AT-AT during the Battle of Hoth? Wes Janson',
 
-'What does General Veers‘ AT-AT shoot just before destroying the Echo Base shield generator in The Empire Strikes Back? A Rebel soldier',
+'What does General Veers\' AT-AT shoot just before destroying the Echo Base shield generator in The Empire Strikes Back? A Rebel soldier',
 
 'What was the name of Admiral Akbar’s command ship in the Battle of Endor?Home One',
 
@@ -306,7 +306,7 @@ export const starWarsTrivia = [
 
 'What are the primary X-wing squadrons maintained at the Resistance base on D’Qar?Red and Blue',
 
-'What was Yoda balancing on before Luke‘s X-wing sank?Luke’s right leg',
+'What was Yoda balancing on before Luke\'s X-wing sank?Luke’s right leg',
 
 'How many proton torpedoes does a T-65 X-wing starfighter carry?Six',
 
@@ -328,9 +328,9 @@ export const starWarsTrivia = [
 
 'In what village did the First Order search for Lor San Tekka?Tuanul village',
 
-'On what planet is the Resistance‘s base located?D’Qar',
+'On what planet is the Resistance\'s base located?D’Qar',
 
-'What model starfighter is the Resistance‘s signature combat craft?The Incom T-70 X-wing starfighter.',
+'What model starfighter is the Resistance\'s signature combat craft?The Incom T-70 X-wing starfighter.',
 
 'What rebel hero founded the Resistance?General Leia Organa',
 
@@ -350,9 +350,9 @@ export const starWarsTrivia = [
 
 'How many facial tentacles do Quarren have?Four',
 
-'How old was Anakin Skywalker when Qui-Gon Jinn and Padmé Amidala happened into Watto‘s junk shop?Nine',
+'How old was Anakin Skywalker when Qui-Gon Jinn and Padmé Amidala happened into Watto\'s junk shop?Nine',
 
-'What is the name of Kylo Ren‘s Star Destroyer?Kylo Ren’s Star Destroyer is called the Finalizer.',
+'What is the name of Kylo Ren\'s Star Destroyer?Kylo Ren’s Star Destroyer is called the Finalizer.',
 
 'What is the name of the leader who Kylo Ren serves?Kylo Ren serves Supreme Leader Snoke.',
 
@@ -372,7 +372,7 @@ export const starWarsTrivia = [
 
 'What type of ship did Padmé take to Mustafar?A J-type star skiff (or Naboo star skiff)',
 
-'Which bounty hunter attacked Senator Amidala‘s chip on the landing platform?Zam Wesel',
+'Which bounty hunter attacked Senator Amidala\'s chip on the landing platform?Zam Wesel',
 
 'What reason did Yoda give Obi-Wan for not being able to train Luke Skywalker? Luke was too old to begin training',
 
@@ -388,7 +388,7 @@ export const starWarsTrivia = [
 
 'What did the Emperor tell Darth Vader about the son of Skywalker?That he must not become a Jedi',
 
-'What, according to Queen Amidala, was the Gungan Army’s role in the Battle of Naboo?According to Queen Amidala the Gungan Army‘s was a diversion to get the droid army out of the city.',
+'What, according to Queen Amidala, was the Gungan Army’s role in the Battle of Naboo?According to Queen Amidala the Gungan Army\'s was a diversion to get the droid army out of the city.',
 
 'How long does it take for a sarlacc to digest its victims? Over one thousand years',
 
@@ -406,7 +406,7 @@ export const starWarsTrivia = [
 
 'What did the deck officer tell Han Solo would happen before he reached the first marker? That Han’s tauntaun would freeze',
 
-'Who was Jabba the Hutt’s rancor‘s keeper? Malakili',
+'Who was Jabba the Hutt’s rancor\'s keeper? Malakili',
 
 'What device did Boushh use to threaten Jabba the Hutt? A thermal detonator',
 
@@ -442,7 +442,7 @@ export const starWarsTrivia = [
 
 'When Qui-Gon Jinn was a Jedi Padawan, who was his Master? Count Dooku',
 
-'What was Jek Porkins‘s homeworld? Bestine',
+'What was Jek Porkins\'s homeworld? Bestine',
 
 'What was the name of the creature that is an easy means of transportation on Kamino? Aiwha are the creatures that are an easy means of transport',
 
@@ -450,7 +450,7 @@ export const starWarsTrivia = [
 
 'According to Princess Leia, to which planet was she on a diplomatic mission? Alderaan',
 
-'Who was the first to volunteer to be on Han Solo‘s command crew on their mission to Endor? Chewbacca',
+'Who was the first to volunteer to be on Han Solo\'s command crew on their mission to Endor? Chewbacca',
 
 'Who referred to Darth Vader as “twisted and evil”? Obi-Wan Kenobi',
 
@@ -478,9 +478,9 @@ export const starWarsTrivia = [
 
 'Into what did Luke Skywalker allow himself to fall on Cloud City? A reactor shaft',
 
-'Where is an AT-AT‘s most vulnerable point? Its neck',
+'Where is an AT-AT\'s most vulnerable point? Its neck',
 
-'What did C-3PO do to win the Ewoks over to the Rebellion? C-3PO recounted the Rebellion‘s plight against the Empire',
+'What did C-3PO do to win the Ewoks over to the Rebellion? C-3PO recounted the Rebellion\'s plight against the Empire',
 
 'What did Qui-Gon Jinn tell the Jedi Council he was going to do? He was going to take Anakin Skywalker as his Padawan',
 
@@ -488,7 +488,7 @@ export const starWarsTrivia = [
 
 'What act was Senator Amidala fighting when she returned to Coruscant to speak to the Senate? The Military Creation Act',
 
-'What were Anakin Skywalker‘s first words after being christened “Darth Vader“? “Thank you, my Master.”',
+'What were Anakin Skywalker\'s first words after being christened “Darth Vader“? “Thank you, my Master.”',
 
 'What service do GNK droids provide? GNK droids, also known as Gonk or Power Droids, are mobile power generators.',
 
@@ -498,7 +498,7 @@ export const starWarsTrivia = [
 
 'Who said, “Army or not, you must realize you are doomed”? General Grievous',
 
-'What was C-3PO‘s first exclamation after he was turned back on after being shot? “Stormtroopers? Here?” I’ve got to warn the others! Oh no, I’ve been shot!”',
+'What was C-3PO\'s first exclamation after he was turned back on after being shot? “Stormtroopers? Here?” I’ve got to warn the others! Oh no, I’ve been shot!”',
 
 'What did Admiral Ackbar say the fighters were going to do during the attack on the Death Star? Fly into the superstructure and attempt to knock out the main reactor.',
 
@@ -528,7 +528,7 @@ export const starWarsTrivia = [
 
 'Where, when hearing the news of the Empire’s fall, did citizens topple a statue of Emperor Palpatine? Corusant',
 
-'What did the Millennium Falcon‘s log read when the Imperials checked it on the Death Star? The crew abandoned ship right after takeoff.',
+'What did the Millennium Falcon\'s log read when the Imperials checked it on the Death Star? The crew abandoned ship right after takeoff.',
 
 'What did Darth Vader tell Lando Calrissian about Princess Leia and Chewbacca after he tortured Han Solo? That they must never again leave Cloud City.',
 
@@ -550,11 +550,11 @@ export const starWarsTrivia = [
 
 'Where, according to Dexter Jettster is Kamino located? Twelve parsecs outside the Rishi maze.',
 
-'How had Anakin Skywalker destroyed Watto‘s old Podracer? He didn’t – Sebulba flashed him with his vents',
+'How had Anakin Skywalker destroyed Watto\'s old Podracer? He didn’t – Sebulba flashed him with his vents',
 
 'What was so special about the fact that Anakin participated in Podraces? Anakin was the only human who could race pods.',
 
-'Who retrieved Obi-Wan Kenobi‘s lightsaber on Utapau? Commander Cody',
+'Who retrieved Obi-Wan Kenobi\'s lightsaber on Utapau? Commander Cody',
 
 'What type of droid was Anakin Skywalker building to help his mother? Anakin Skywalker was building a protocol droid to help his mother.',
 
@@ -588,7 +588,7 @@ export const starWarsTrivia = [
 
 'What did Obi-Wan notice about the surface of Geonosis as he was landing? Obi-Wan noticed that there was an unusual concentration of Techno Union ships.',
 
-'What does the Republic Cruiser‘s red color signify? Republic Cruiser’s red color signifies its political neutrality.',
+'What does the Republic Cruiser\'s red color signify? Republic Cruiser’s red color signifies its political neutrality.',
 
 'What type of weapon did Han Solo use? Han carried a DL-44 heavy blaster pistol.',
 
@@ -600,7 +600,7 @@ export const starWarsTrivia = [
 
 'Why did the Jedi and Queen Amidala have to land on Tatooine? The Jedi and Queen Amidala had to land on Tatooine because their hyperdrive engine had been damaged.',
 
-'What did Admiral Ackbar say the Rebel fleet\'s cruisers would be during the attack on the Death Star? Admiral Ackbar said the Rebel fleet‘s cruisers would create a perimeter during the attack on the Death Star.',
+'What did Admiral Ackbar say the Rebel fleet\'s cruisers would be during the attack on the Death Star? Admiral Ackbar said the Rebel fleet\'s cruisers would create a perimeter during the attack on the Death Star.',
 
 'Who due to his superior\'s incompetence, was promoted from Captain to Admiral during the Battle of Hoth? Captain Piett was promoted to Admiral.',
 
@@ -608,13 +608,13 @@ export const starWarsTrivia = [
 
 'To which species did Max Rebo belong? Max Rebo is an Ortolan.',
 
-'When the buzz droids attacked Obi-Wan‘s ship, which astromech droid was destroyed? R4-P17 was destroyed.',
+'When the buzz droids attacked Obi-Wan\'s ship, which astromech droid was destroyed? R4-P17 was destroyed.',
 
 'How many eyes do Gran have? Gran have 3 eyes.',
 
 'What surrounded Anakin, Obi-Wan and Padmé when they were riding the reek? Anakin, Obi-Wan and Padmé were surrounded by droidekas.',
 
-'What was Obi-Wan Kenobi‘s final promise to Qui-gon Jinn? Obi Wan promised that he would train Anakin Skywalker.',
+'What was Obi-Wan Kenobi\'s final promise to Qui-gon Jinn? Obi Wan promised that he would train Anakin Skywalker.',
 
 'Of which political committee was Senator Amidala a member? Senator Amidala a member of the Loyalist Committee',
 
@@ -646,9 +646,9 @@ export const starWarsTrivia = [
 
 'How old was Anakin Skywalker during the battle of Geonosis? Anakin Skywalker was 20 years old during the battle of Geonosis.',
 
-'What was Jedi master Plo Koon‘s species? Plo Koon’s species was Kel Dor.',
+'What was Jedi master Plo Koon\'s species? Plo Koon’s species was Kel Dor.',
 
-'What was Watto‘s favorite pastime? Watto’s favorite pastime was gambling.',
+'What was Watto\'s favorite pastime? Watto’s favorite pastime was gambling.',
 
 'What hand did Luke Skywalker lose in his battle with Darth Vader? Luke Skywalker lost his right hand in battle with Darth Vader',
 
@@ -656,7 +656,7 @@ export const starWarsTrivia = [
 
 'What did C-3PO say they had done to the Tantive IV? C-3PO said they had shut down the main reactor on the Tantive IV.',
 
-'What was Han Solo‘s rank in the Rebel Alliance at the Battle of Hoth? Han Solo’s rank in the Rebel Alliance at the Battle of Hoth was Captain',
+'What was Han Solo\'s rank in the Rebel Alliance at the Battle of Hoth? Han Solo’s rank in the Rebel Alliance at the Battle of Hoth was Captain',
 
 'How many pairs of eyes to Talz have? Talz have two pairs of eyes.',
 
@@ -668,11 +668,11 @@ export const starWarsTrivia = [
 
 'Wat was Wicket’s last name? Wicket’s last name was Warrick.',
 
-'What make is Boba Fett‘s ship, Slave I? Slave I is a Firespray-class patrol and attack ship.',
+'What make is Boba Fett\'s ship, Slave I? Slave I is a Firespray-class patrol and attack ship.',
 
 'Which ship was actually a modified T-47 airspeeder? The snowspeeder was actually a modified T-47 airspeeder.',
 
-'What, according to Luke Skywalker was the Emperor’s weakness? According to Luke Skywalker, the Emperor‘s overconfidence was his weakness.',
+'What, according to Luke Skywalker was the Emperor’s weakness? According to Luke Skywalker, the Emperor\'s overconfidence was his weakness.',
 
 'According to Yoda, when would Luke Skywalker know the good side from the bad? When he was calm, at peace.',
 
