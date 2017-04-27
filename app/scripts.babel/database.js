@@ -138,7 +138,7 @@ export const funFacts = [
   'Facebook, Skype and Twitter are all banned in China.',
   '95% of people text things they could never say in person.',
   'The Titanic was the first ship to use the SOS signal.',
-  'In Poole, \'Pound World\' went out of business because of a store across the road called \'99p Stores\', which was selling the same products but for just 1 pence cheaper! ',
+  'In Poole, \'Pound World\' went out of business because of a store across the road called \'99p Stores\', which was selling the same products but for just 1 pence cheaper!',
   'About 8,000 Americans are injured by musical instruments each year.',
   'The French language has seventeen different words for \'surrender\'.',
   'Nearly three percent of the ice in Antarctic glaciers is penguin urine.',
@@ -226,7 +226,7 @@ export const puns = [
   'All the toilets in New York\'s police stations have been stolen. The police have nothing to go on.',
   'I got a job at a bakery because I kneaded dough.',
   'Velcro - what a rip off!',
-  'Don’t worry about old age; it doesn’t last.',
+  'Don\'t worry about old age; it doesn\'t last.',
   'My friend sent me these puns idk source just thought you would enjoy'
 ];
 
@@ -236,9 +236,9 @@ export const starWarsTrivia = [
 
 'What did Mother Talzin use to create new legs for Maul? Pieces of destroyed battle droids.',
 
-'What Imperial Star Destroyer intercepted Princess Leia’s ship above Tatooine in Star Wars- A New Hope? The Devastator.',
+'What Imperial Star Destroyer intercepted Princess Leia\'s ship above Tatooine in Star Wars- A New Hope? The Devastator.',
 
-'The ancient design of Kylo Ren’s lightsaber dates back to what historical conflict? The Great Scourge of Malachor.',
+'The ancient design of Kylo Ren\'s lightsaber dates back to what historical conflict? The Great Scourge of Malachor.',
 
 'What bounty hunter employed a bowcaster as his weapon of choice? Embo.',
 
@@ -248,19 +248,19 @@ export const starWarsTrivia = [
 
 'Anakin Skywalker attacked the Malevolence with what Y-wing squadron? Shadow Squadron.',
 
-'How did Gold 5 know to watch for incoming enemy fighters during Battle of Yavin? The Death Star’s turbolasers stopped firing at the Rebel fighters.',
+'How did Gold 5 know to watch for incoming enemy fighters during Battle of Yavin? The Death Star\'s turbolasers stopped firing at the Rebel fighters.',
 
 'Poe Dameron\'s mother gave him his first flight lessons in what type of starfighter? A-wing.',
 
-'What are the names of Poe’s heroic parents? Kes Dameron and Shara Bey',
+'What are the names of Poe\'s heroic parents? Kes Dameron and Shara Bey',
 
-'What location, former home to a Rebel Base, was Poe Dameron’s childhood home? Yavin 4.',
+'What location, former home to a Rebel Base, was Poe Dameron\'s childhood home? Yavin 4.',
 
-'Who’s crew did Finn attempt to join at Maz’s Castle for passage to the Outer Rim? The Meson Martinet, under Captain Sidon Ithano.',
+'Who\'s crew did Finn attempt to join at Maz\'s Castle for passage to the Outer Rim? The Meson Martinet, under Captain Sidon Ithano.',
 
-'What advice did Han Solo give Finn as they entered Maz’s Castle? \'Whatever you do, don’t stare…\'',
+'What advice did Han Solo give Finn as they entered Maz\'s Castle? \'Whatever you do, don\'t stare…\'',
 
-'What did Maz refer to the First Order as when they arrived on Takodana? \'Those beasts! They’re here!\'',
+'What did Maz refer to the First Order as when they arrived on Takodana? \'Those beasts! They\'re here!\'',
 
 'What Imperial office did Tseebo work for? The Imperial Information Office.',
 
@@ -270,15 +270,15 @@ export const starWarsTrivia = [
 
 'What ship transported Obi-Wan and Satine Kryze on their journey to Coruscant? The Coronet.',
 
-'Spoken by Obi-Wan, what are the final words heard in Rey’s vision? \'…these are your first steps.\'',
+'Spoken by Obi-Wan, what are the final words heard in Rey\'s vision? \'…these are your first steps.\'',
 
 'What bounty hunter did Obi-Wan impersonate to prevent an assassination? Rako Hardeen.',
 
-'How many landing craft did the Finalizer deploy to the village on Jakku? Five. Four Atmospheric Assault Landers and Kylo Ren’s Command Shuttle.',
+'How many landing craft did the Finalizer deploy to the village on Jakku? Five. Four Atmospheric Assault Landers and Kylo Ren\'s Command Shuttle.',
 
 'What officer gave the order to alert General Hux when Poe & Finn escape from the Finalizer? Colonel Kaplan.',
 
-'Which of the Finalizer’s bays did Poe & Finn steal a TIE from? Bay 2.',
+'Which of the Finalizer\'s bays did Poe & Finn steal a TIE from? Bay 2.',
 
 'What Jedi Younglings class are seen training with lightsabers in Attack of the Clones? The Bear Clan',
 
@@ -290,7 +290,7 @@ export const starWarsTrivia = [
 
 'In what Mandalore city did Maul face off against Darth Sidious? Sundari',
 
-'What was the name of Darth Maul’s ship featured in The Phantom Menace? The Scimitar',
+'What was the name of Darth Maul\'s ship featured in The Phantom Menace? The Scimitar',
 
 'How many AT-ATs did Agent Kallus command in the Star Wars Rebels episode \'Relics of the Old Republic\'? Three',
 
@@ -298,15 +298,15 @@ export const starWarsTrivia = [
 
 'What does General Veers\' AT-AT shoot just before destroying the Echo Base shield generator in The Empire Strikes Back? A Rebel soldier',
 
-'What was the name of Admiral Akbar’s command ship in the Battle of Endor?Home One',
+'What was the name of Admiral Akbar\'s command ship in the Battle of Endor?Home One',
 
 'After the fall of the Empire, Akbar was promoted to what rank in the New Republic?Grand Admiral',
 
 'In which sector did the Mon Calamari soldier tell Admiral Akbar there were enemy ships?Sector 47',
 
-'What are the primary X-wing squadrons maintained at the Resistance base on D’Qar?Red and Blue',
+'What are the primary X-wing squadrons maintained at the Resistance base on D\'Qar?Red and Blue',
 
-'What was Yoda balancing on before Luke\'s X-wing sank?Luke’s right leg',
+'What was Yoda balancing on before Luke\'s X-wing sank?Luke\'s right leg',
 
 'How many proton torpedoes does a T-65 X-wing starfighter carry?Six',
 
@@ -314,9 +314,9 @@ export const starWarsTrivia = [
 
 'How many stormtroopers did Leia kill before she was stunned on Tantive IV?One',
 
-'What did Princess Leia tell Luke Skywalker when he saw her being escorted by stormtroopers in Cloud City?\'It’s a trap!\'',
+'What did Princess Leia tell Luke Skywalker when he saw her being escorted by stormtroopers in Cloud City?\'It\'s a trap!\'',
 
-'To whom did C-3PO say, \'You have a responsibility to me, so don’t do anything foolish\'?Chewbacca',
+'To whom did C-3PO say, \'You have a responsibility to me, so don\'t do anything foolish\'?Chewbacca',
 
 'What did C-3PO \'thank the maker\' for?An oil bath',
 
@@ -324,11 +324,11 @@ export const starWarsTrivia = [
 
 'During the Galactic Civil War, what did the Empire hide on Jakku?A secret research base',
 
-'To what crime family did Niima Outpost’s namesake belong?The Hutts',
+'To what crime family did Niima Outpost\'s namesake belong?The Hutts',
 
 'In what village did the First Order search for Lor San Tekka?Tuanul village',
 
-'On what planet is the Resistance\'s base located?D’Qar',
+'On what planet is the Resistance\'s base located?D\'Qar',
 
 'What model starfighter is the Resistance\'s signature combat craft?The Incom T-70 X-wing starfighter.',
 
@@ -346,13 +346,13 @@ export const starWarsTrivia = [
 
 'Where is Takodana located?The Western Reaches, in the Tashtor Sector.',
 
-'To which Ewok was C-3PO referring when he said, \'I’m afraid our furry companion has gone and done something rather rash\'?Paploo',
+'To which Ewok was C-3PO referring when he said, \'I\'m afraid our furry companion has gone and done something rather rash\'?Paploo',
 
 'How many facial tentacles do Quarren have?Four',
 
 'How old was Anakin Skywalker when Qui-Gon Jinn and Padmé Amidala happened into Watto\'s junk shop?Nine',
 
-'What is the name of Kylo Ren\'s Star Destroyer?Kylo Ren’s Star Destroyer is called the Finalizer.',
+'What is the name of Kylo Ren\'s Star Destroyer?Kylo Ren\'s Star Destroyer is called the Finalizer.',
 
 'What is the name of the leader who Kylo Ren serves?Kylo Ren serves Supreme Leader Snoke.',
 
@@ -376,7 +376,7 @@ export const starWarsTrivia = [
 
 'What reason did Yoda give Obi-Wan for not being able to train Luke Skywalker? Luke was too old to begin training',
 
-'Who said, \'There hasn’t been a full-scale war since the formation of the Republic\'?Sio Bibble',
+'Who said, \'There hasn\'t been a full-scale war since the formation of the Republic\'?Sio Bibble',
 
 'Who was Prime Minister of Kamino?Lama Su',
 
@@ -384,15 +384,15 @@ export const starWarsTrivia = [
 
 'Who said, \'You are unwise to lower your defenses\'?Darth Vader',
 
-'Where on Tatooine did Luke Skywalker race his T-16 Skyhopper?Beggar’s Canyon',
+'Where on Tatooine did Luke Skywalker race his T-16 Skyhopper?Beggar\'s Canyon',
 
 'What did the Emperor tell Darth Vader about the son of Skywalker?That he must not become a Jedi',
 
-'What, according to Queen Amidala, was the Gungan Army’s role in the Battle of Naboo?According to Queen Amidala the Gungan Army\'s was a diversion to get the droid army out of the city.',
+'What, according to Queen Amidala, was the Gungan Army\'s role in the Battle of Naboo?According to Queen Amidala the Gungan Army\'s was a diversion to get the droid army out of the city.',
 
 'How long does it take for a sarlacc to digest its victims? Over one thousand years',
 
-'Who said \'Don’t try to frighten us with your sorcerers ways, Lord Vader\'? Admiral Motti',
+'Who said \'Don\'t try to frighten us with your sorcerers ways, Lord Vader\'? Admiral Motti',
 
 'How many legs do dactillions have? Four',
 
@@ -404,9 +404,9 @@ export const starWarsTrivia = [
 
 'What did General Grievous call Obi-Wan Kenobi on Utapau? \'Jedi Slime\'',
 
-'What did the deck officer tell Han Solo would happen before he reached the first marker? That Han’s tauntaun would freeze',
+'What did the deck officer tell Han Solo would happen before he reached the first marker? That Han\'s tauntaun would freeze',
 
-'Who was Jabba the Hutt’s rancor\'s keeper? Malakili',
+'Who was Jabba the Hutt\'s rancor\'s keeper? Malakili',
 
 'What device did Boushh use to threaten Jabba the Hutt? A thermal detonator',
 
@@ -426,7 +426,7 @@ export const starWarsTrivia = [
 
 'What did Anakin vow to Padmé after Shmi died? Anakin vowed that he would learn to stop people from dying.',
 
-'Why couldn’t Luke, Han, Leia and Chewbacca blast their way out of the trash compactor? It was magnetically sealed.',
+'Why couldn\'t Luke, Han, Leia and Chewbacca blast their way out of the trash compactor? It was magnetically sealed.',
 
 'What did Darth Vader tell Admiral Piett regarding Shuttle Tydirium? \'Leave them to me\'',
 
@@ -434,7 +434,7 @@ export const starWarsTrivia = [
 
 'What was wrong with R5-D4? R5-D4 had a bad motivator.',
 
-'Who said, \'One thing’s for sure — we’re all gonna be a lot thinner\'? Han Solo',
+'Who said, \'One thing\'s for sure — we\'re all gonna be a lot thinner\'? Han Solo',
 
 'Where was the Echo Base evacuation fleet located? The Echo Base evacuation fleet was located at the western ridge.',
 
@@ -492,19 +492,19 @@ export const starWarsTrivia = [
 
 'What service do GNK droids provide? GNK droids, also known as Gonk or Power Droids, are mobile power generators.',
 
-'How did Yoda feel about Obi-Wan taking Anakin Skywalker as his Padawan? Yoda did not agree with the council’s decision.',
+'How did Yoda feel about Obi-Wan taking Anakin Skywalker as his Padawan? Yoda did not agree with the council\'s decision.',
 
 'What does TIE in \'TIE fighter\' stand for? Twin ion engine',
 
 'Who said, \'Army or not, you must realize you are doomed\'? General Grievous',
 
-'What was C-3PO\'s first exclamation after he was turned back on after being shot? \'Stormtroopers? Here?\' I’ve got to warn the others! Oh no, I’ve been shot!\'',
+'What was C-3PO\'s first exclamation after he was turned back on after being shot? \'Stormtroopers? Here?\' I\'ve got to warn the others! Oh no, I\'ve been shot!\'',
 
 'What did Admiral Ackbar say the fighters were going to do during the attack on the Death Star? Fly into the superstructure and attempt to knock out the main reactor.',
 
 'Whose head was put on backwards when he was being reassembled? C-3PO',
 
-'Who was 2-1B’s assistant in Echo Base? FX-7',
+'Who was 2-1B\'s assistant in Echo Base? FX-7',
 
 'What was standard Imperial procedure prior to jumping to lightspeed? Dumping their garbage',
 
@@ -514,9 +514,9 @@ export const starWarsTrivia = [
 
 'Which pilot flew as Red Six during the Battle of Yavin? Jek Porkins',
 
-'What was the number of the detention block that contained Princess Leia’s cell? AA-23',
+'What was the number of the detention block that contained Princess Leia\'s cell? AA-23',
 
-'What was Grand Moff Tarkin’s homeworld? Eriadu',
+'What was Grand Moff Tarkin\'s homeworld? Eriadu',
 
 'For how long are creatures swallowed by a sarlacc digested? Creatures swallowed by a sarlacc are digested for over a thousand years.',
 
@@ -526,7 +526,7 @@ export const starWarsTrivia = [
 
 'What did C-3PO yell to distract stormtroopers outside the rear entrance to the shield bunker? \'I say! Over there! Where you looking for me?\'',
 
-'Where, when hearing the news of the Empire’s fall, did citizens topple a statue of Emperor Palpatine? Corusant',
+'Where, when hearing the news of the Empire\'s fall, did citizens topple a statue of Emperor Palpatine? Corusant',
 
 'What did the Millennium Falcon\'s log read when the Imperials checked it on the Death Star? The crew abandoned ship right after takeoff.',
 
@@ -536,7 +536,7 @@ export const starWarsTrivia = [
 
 'Whom did R2-D2 tell Luke Skywalker he belonged to? R2-D2 told Luke Skywalker he belonged to Obi-Wan Kenobi.',
 
-'What did Princess Leia say when Luke Skywalker came to rescue her? She said, \'Aren’t you a little short or a stormtrooper?\'',
+'What did Princess Leia say when Luke Skywalker came to rescue her? She said, \'Aren\'t you a little short or a stormtrooper?\'',
 
 'How fast did the Millennium Falcon make the Kessel Run? The Millennium Falcon made the Kessel Run in in less than twelve parsecs.',
 
@@ -550,7 +550,7 @@ export const starWarsTrivia = [
 
 'Where, according to Dexter Jettster is Kamino located? Twelve parsecs outside the Rishi maze.',
 
-'How had Anakin Skywalker destroyed Watto\'s old Podracer? He didn’t – Sebulba flashed him with his vents',
+'How had Anakin Skywalker destroyed Watto\'s old Podracer? He didn\'t – Sebulba flashed him with his vents',
 
 'What was so special about the fact that Anakin participated in Podraces? Anakin was the only human who could race pods.',
 
@@ -558,15 +558,15 @@ export const starWarsTrivia = [
 
 'What type of droid was Anakin Skywalker building to help his mother? Anakin Skywalker was building a protocol droid to help his mother.',
 
-'Who was Chancellor Palpatine’s Umbaran aide? Sly Moore',
+'Who was Chancellor Palpatine\'s Umbaran aide? Sly Moore',
 
-'Where did Luke Skywalker bullseye womp rats? Luke used to bullseye womp rats at Beggar’s Canyon on Tatooine.',
+'Where did Luke Skywalker bullseye womp rats? Luke used to bullseye womp rats at Beggar\'s Canyon on Tatooine.',
 
 'What is unique about Cato Neimoidian cities? They are constructed on bridges.',
 
 'What was Luke clinging to before he allowed himself to plummet to the bottom of Cloud City? Luke was clinging to an atmosphere sensor.',
 
-'Who was Luke Skywalker’s tailgunner in the Battle of Hoth? Dak Ralter',
+'Who was Luke Skywalker\'s tailgunner in the Battle of Hoth? Dak Ralter',
 
 'What did hibernation sickness do to Han Solo? Hibernation sickness caused Han Solo temporary blindness.',
 
@@ -576,7 +576,7 @@ export const starWarsTrivia = [
 
 'Who lived beyond the Dune Sea? Obi-Wan Kenobi live beyond the Dune Sea.',
 
-'Where did Obi-Wan Kenobi go to get information about the dart that had killed Zam Wesell after the temple droids failed him? Obi-Wan Kenobi went to Dexter’s Diner.',
+'Where did Obi-Wan Kenobi go to get information about the dart that had killed Zam Wesell after the temple droids failed him? Obi-Wan Kenobi went to Dexter\'s Diner.',
 
 'Who was jokingly called \'Wormie\' as a youngster? Luke Skywalker',
 
@@ -588,15 +588,15 @@ export const starWarsTrivia = [
 
 'What did Obi-Wan notice about the surface of Geonosis as he was landing? Obi-Wan noticed that there was an unusual concentration of Techno Union ships.',
 
-'What does the Republic Cruiser\'s red color signify? Republic Cruiser’s red color signifies its political neutrality.',
+'What does the Republic Cruiser\'s red color signify? Republic Cruiser\'s red color signifies its political neutrality.',
 
 'What type of weapon did Han Solo use? Han carried a DL-44 heavy blaster pistol.',
 
 'Who said, \'As a member of the Senate, maybe I can find a diplomatic solution to this mess\'? Senator Amidala',
 
-'Where on Tatooine did the droids escape pod land? The droids’ escape pod landed in the Western Dune Sea.',
+'Where on Tatooine did the droids escape pod land? The droids\' escape pod landed in the Western Dune Sea.',
 
-'Who said, \'He’s got too much of his father in him\'? Beru Lars.',
+'Who said, \'He\'s got too much of his father in him\'? Beru Lars.',
 
 'Why did the Jedi and Queen Amidala have to land on Tatooine? The Jedi and Queen Amidala had to land on Tatooine because their hyperdrive engine had been damaged.',
 
@@ -646,33 +646,33 @@ export const starWarsTrivia = [
 
 'How old was Anakin Skywalker during the battle of Geonosis? Anakin Skywalker was 20 years old during the battle of Geonosis.',
 
-'What was Jedi master Plo Koon\'s species? Plo Koon’s species was Kel Dor.',
+'What was Jedi master Plo Koon\'s species? Plo Koon\'s species was Kel Dor.',
 
-'What was Watto\'s favorite pastime? Watto’s favorite pastime was gambling.',
+'What was Watto\'s favorite pastime? Watto\'s favorite pastime was gambling.',
 
 'What hand did Luke Skywalker lose in his battle with Darth Vader? Luke Skywalker lost his right hand in battle with Darth Vader',
 
-'What model was Luke Skywalker’s landspeeder? Luke Skywalker’s landspeeder was an X-34.',
+'What model was Luke Skywalker\'s landspeeder? Luke Skywalker\'s landspeeder was an X-34.',
 
 'What did C-3PO say they had done to the Tantive IV? C-3PO said they had shut down the main reactor on the Tantive IV.',
 
-'What was Han Solo\'s rank in the Rebel Alliance at the Battle of Hoth? Han Solo’s rank in the Rebel Alliance at the Battle of Hoth was Captain',
+'What was Han Solo\'s rank in the Rebel Alliance at the Battle of Hoth? Han Solo\'s rank in the Rebel Alliance at the Battle of Hoth was Captain',
 
 'How many pairs of eyes to Talz have? Talz have two pairs of eyes.',
 
 'Where in Cloud City did Chewbacca find a troubled C-3PO? Chewbacca found a troubled C-3PO in a junk pile.',
 
-'Where were R2-D2 and C-3PO escorted after C-3PO relayed Luke Skywalker’s message to Jabba the Hutt? R2-D2 and C-3PO were escorted to the boiler room after c-3PO relayed Luke Skywalker’s message to Jabba the Hutt.',
+'Where were R2-D2 and C-3PO escorted after C-3PO relayed Luke Skywalker\'s message to Jabba the Hutt? R2-D2 and C-3PO were escorted to the boiler room after c-3PO relayed Luke Skywalker\'s message to Jabba the Hutt.',
 
 'What guild did Princess Leia ask Lando whether Cloud City was a part of? Princess Leia asked Lando whether Cloud City was a the Mining Guild.',
 
-'Wat was Wicket’s last name? Wicket’s last name was Warrick.',
+'Wat was Wicket\'s last name? Wicket\'s last name was Warrick.',
 
 'What make is Boba Fett\'s ship, Slave I? Slave I is a Firespray-class patrol and attack ship.',
 
 'Which ship was actually a modified T-47 airspeeder? The snowspeeder was actually a modified T-47 airspeeder.',
 
-'What, according to Luke Skywalker was the Emperor’s weakness? According to Luke Skywalker, the Emperor\'s overconfidence was his weakness.',
+'What, according to Luke Skywalker was the Emperor\'s weakness? According to Luke Skywalker, the Emperor\'s overconfidence was his weakness.',
 
 'According to Yoda, when would Luke Skywalker know the good side from the bad? When he was calm, at peace.',
 
@@ -684,6 +684,6 @@ export const starWarsTrivia = [
 
 'Who said, \'He is as clumsy as he is stupid\'? Darth Vader',
 
-'What wasn’t quite enough to get Princess Leia excited? Being held by Han Solo',
+'What wasn\'t quite enough to get Princess Leia excited? Being held by Han Solo',
 
 ];
