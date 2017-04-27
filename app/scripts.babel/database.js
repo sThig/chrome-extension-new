@@ -356,7 +356,7 @@ export const starWarsTrivia = [
 
 'What is the name of the leader who Kylo Ren serves?Kylo Ren serves Supreme Leader Snoke.',
 
-'What did Yoda tell Luke Skywalker about his weapons when Luke was going into the cave on Dagobah?Yoda told Luke, \'Your weapons – you will not need them.\'',
+'What did Yoda tell Luke Skywalker about his weapons when Luke was going into the cave on Dagobah? Yoda told Luke, \'Your weapons,you will not need them.\'',
 
 'What reason did Luke Skywalker give Yoda for wanting to become a Jedi?Luke Skywalker said he wanted to become a Jedi because of his father.',
 
