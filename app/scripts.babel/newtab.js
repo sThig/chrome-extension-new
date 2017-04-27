@@ -1,4 +1,4 @@
-import { quotes, hello, dates, links, morning } from './database';
+import { quotes, hello, dates, links, morning, funFacts, puns, starWarsTrivia } from './database';
 
 let userName = 'Scott';
 const second = 1000;
@@ -13,6 +13,22 @@ const newQuote = () => {
 
 const differentMorningGreeting = () => {
   const randomMorning = Math.floor(Math.random() * (morning.length));
+  return (morning[randomMorning]);
+}
+
+const createFunFact = () => {
+  const randomFact = Math.floor(Math.random() * (funFacts.length));
+  return (funFacts[randomFact]);
+}
+
+const createPun = () => {
+  const randomPun = Math.floor(Math.random() * (puns.length));
+  return (puns[randomPun]);
+}
+
+const createStarWarsTrivia = () => {
+  const randomSW = Math.floor(Math.random() * (starWarsTrivia.length));
+  return (starWarsTrivia[randomSW]);
 }
 
 const newGreet = () => {
@@ -73,25 +89,25 @@ function displayVoice() {
   document.getElementById('personal-message').innerHTML = 'If you see this, you need to be coding;'
  }
   if ((hr == 6) || (hr == 7) || (hr == 8) || (hr == 9) || (hr == 10)) {
-  document.getElementById('personal-message').innerHTML = 'Good Morning!';
+  document.getElementById('personal-message').innerHTML = differentMorningGreeting(morning);
  }
   if (hr == 11) {
-  document.getElementById('personal-message').innerHTML = '11 AM! Time for lunch!';
+  document.getElementById('personal-message').innerHTML = createPun(puns);
  }
   if (hr == 12) {
-  document.getElementById('personal-message').innerHTML = 'Noon! Time for second lunch!';
+  document.getElementById('personal-message').innerHTML = createStarWarsTrivia(starWarsTrivia);
  }
   if (hr == 14) {
-  document.getElementById('personal-message').innerHTML = 'It\'s 2 PM. Time for third lunch!';
+  document.getElementById('personal-message').innerHTML = createStarWarsTrivia(starWarsTrivia);
  }
   if ((hr == 15) || (hr == 13)) {
-  document.getElementById('personal-message').innerHTML = 'Good Afternoon!';
+  document.getElementById('personal-message').innerHTML = createFunFact(funFacts);
  }
  if (hr == 16) {
- document.getElementById('personal-message').innerHTML = differentMorningGreeting + 'It\'s Four! Home Stretch!';
+ document.getElementById('personal-message').innerHTML =  createPun(puns);
 }
   if ((hr == 17) || (hr == 18) || (hr == 19) || (hr == 20) || (hr == 21) || (hr == 22)) {
-  document.getElementById('personal-message').innerHTML = 'Good Evening! Welcome to prime time on the web!';
+  document.getElementById('personal-message').innerHTML = createFunFact(funFacts);
  }
   if (hr == 23) {
   document.getElementById('personal-message').innerHTML = 'It\'s almost midnight. Aren\'t you sleepy yet?';
