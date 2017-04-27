@@ -67,6 +67,7 @@ const displayTime = (calcFn, id) => {
   document.getElementById(`seconds-${id}`).innerHTML = seconds + 's ';
 }
 
+
 function displayVoice() {
   const newday = new Date();
   const hr = newday.getHours();
@@ -89,13 +90,16 @@ function displayVoice() {
   document.getElementById('personal-message').innerHTML = 'If you see this, you need to be coding;'
  }
   if ((hr == 6) || (hr == 7) || (hr == 8) || (hr == 9) || (hr == 10)) {
-  document.getElementById('personal-message').innerHTML = differentMorningGreeting(morning);
+  document.getElementById('personal-message').innerHTML = 'Fun fact, "' + differentMorningGreeting(morning) + '" ' + 'is good morning in Non-American!';
+ }
+  if (hr ==10) {
+     document.getElementById('personal-message').innerHTML = createStarWarsTrivia(starWarsTrivia);
  }
   if (hr == 11) {
   document.getElementById('personal-message').innerHTML = createPun(puns);
  }
   if (hr == 12) {
-  document.getElementById('personal-message').innerHTML = createStarWarsTrivia(starWarsTrivia);
+  document.getElementById('personal-message').innerHTML = createFunFact(funFacts);
  }
   if (hr == 14) {
   document.getElementById('personal-message').innerHTML = createStarWarsTrivia(starWarsTrivia);
@@ -125,6 +129,14 @@ const linkList = [links.lifehacker, links.reddit, links.goodreads, links.fontawe
 function createLinks(link, site) {
   document.getElementById(`site-${site}`).innerHTML = '<a href=\'' + `${link}` + '\' >' + '<img class=\'link-image\' src= \'/static/link.svg\'>' + `${site}` + '</a>';
 }
+
+// var timeleft = new Date();
+// var downloadTimer = setInterval(function(){
+//   document.getElementById('progressBar').value = new Date() - --timeleft;
+//   if(timeleft <= 0)
+//     clearInterval(downloadTimer);
+// },1000);
+
 
 displayVoice();
 newGreet();
