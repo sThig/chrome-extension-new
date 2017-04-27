@@ -2,6 +2,11 @@
 
 export const quotes = [
   '\"Is it nice is it\'s necessary is it true?\"',
+  '\"Leap First\"',
+  '\"Make better Art\"',
+  '\"Professionals never compare themselves to others\"',
+  '\"The person that fails the most, wins\"',
+  '\"Do work worth doing\"',
   '\"Everybody Counts\"',
   '\"Persistence is a great substitution for talent\"',
   '\"Can We Fix It?\"',
@@ -677,7 +682,7 @@ export const starWarsTrivia = [
 
 'What system was the Millennium Falcon in when the Imperial fleet broke up in The Empire Strikes Back? The Anoat system',
 
-'Who said, “He is as clumsy as he is stupid”? Darth Vader',
+'Who said, \'He is as clumsy as he is stupid\'? Darth Vader',
 
 'What wasn’t quite enough to get Princess Leia excited? Being held by Han Solo',
 
