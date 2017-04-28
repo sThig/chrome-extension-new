@@ -123,19 +123,23 @@ function displayVoice() {
 
 
 const list = [dates.drinks, dates.coffee, dates.meat, dates.age];
-// const linkList = [linkCreator.Lifehacker, linkCreator.Reddit];
 const linkList = [links.lifehacker, links.reddit, links.goodreads, links.fontawesome, links.googlemusic, links.markdown, links.fontpair, links.patreon];
 
 function createLinks(link, site) {
   document.getElementById(`site-${site}`).innerHTML = '<a href=\'' + `${link}` + '\' >' + '<img class=\'link-image\' src= \'/static/link.svg\'>' + `${site}` + '</a>';
 }
 
-// var timeleft = new Date();
-// var downloadTimer = setInterval(function(){
-//   document.getElementById('progressBar').value = new Date() - --timeleft;
-//   if(timeleft <= 0)
-//     clearInterval(downloadTimer);
-// },1000);
+// var timeleft = 10;
+var finishTime = new Date();
+finishTime.setHours(15);
+finishTime.setMinutes(0);
+var downloadTimer = setInterval(function(){
+  var currentValue = finishTime.getMinutes() - new Date().getMinutes();
+  document.getElementById('progressBar').value = currentValue;
+  console.log('currentValue', currentValue);
+  // if(timeleft <= 0)
+    // clearInterval(downloadTimer);
+},1000);
 
 
 displayVoice();
@@ -155,5 +159,5 @@ list.forEach(date => {
   setInterval(() => {
     displayGraphic(date.id);
     displayTime(calcFn, date.id);
-  }, 1000);
+  }, 50);
 });
