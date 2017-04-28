@@ -159,7 +159,7 @@ export const funFacts = [
   'In England, in the 1880\'s, \'Pants\' was considered a dirty word.',
   'It snowed in the Sahara desert for 30 minutes on the 18th February 1979.',
   'Every human spent about half an hour as a single cell.',
-  'If you leave everything to the last minute… it will only take a minute.',
+  'If you leave everything to the last minute... it will only take a minute.',
   'Unlike many other big cats, snow leopards are not aggressive towards humans. There has never been a verified snow leopard attack on a human being.',
   'The first alarm clock could only ring at 4am.',
   'Birds don\'t urinate.',
@@ -167,7 +167,7 @@ export const funFacts = [
   'The most venomous jellyfish in the world is named the Irukandji and is smaller than your fingernail.',
   'The 20th of March is known as Snowman Burning Day!',
   'Slugs have 4 noses.',
-  'Panphobia is the fear of everything… which is a pretty unlucky phobia to have.',
+  'Panphobia is the fear of everything... which is a pretty unlucky phobia to have.',
   'An apple, potato, and onion all taste the same if you eat them with your nose plugged.',
   'The front paws of a cat are different from the back paws. They have five toes on the front but only four on the back.',
   'A company in Taiwan makes dinnerware out of wheat, so you can eat your plate!',
@@ -258,7 +258,7 @@ export const starWarsTrivia = [
 
 'Who\'s crew did Finn attempt to join at Maz\'s Castle for passage to the Outer Rim? The Meson Martinet, under Captain Sidon Ithano.',
 
-'What advice did Han Solo give Finn as they entered Maz\'s Castle? \'Whatever you do, don\'t stare…\'',
+'What advice did Han Solo give Finn as they entered Maz\'s Castle? \'Whatever you do, don\'t stare...\'',
 
 'What did Maz refer to the First Order as when they arrived on Takodana? \'Those beasts! They\'re here!\'',
 
@@ -270,7 +270,7 @@ export const starWarsTrivia = [
 
 'What ship transported Obi-Wan and Satine Kryze on their journey to Coruscant? The Coronet.',
 
-'Spoken by Obi-Wan, what are the final words heard in Rey\'s vision? \'…these are your first steps.\'',
+'Spoken by Obi-Wan, what are the final words heard in Rey\'s vision? \'...these are your first steps.\'',
 
 'What bounty hunter did Obi-Wan impersonate to prevent an assassination? Rako Hardeen.',
 
@@ -340,7 +340,7 @@ export const starWarsTrivia = [
 
 'Where does Rey live on Jakku?Inside of a toppled AT-AT.',
 
-'According to Han Solo, how long as Maz Kanata run \'this watering hole\'?\'… a thousand years.\'',
+'According to Han Solo, how long as Maz Kanata run \'this watering hole\'?\'... a thousand years.\'',
 
 'What creature is used in some space stations and on some planets as an easy means of waste disposal?Dianoga.',
 

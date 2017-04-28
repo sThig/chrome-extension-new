@@ -110,15 +110,14 @@ function displayVoice() {
   document.getElementById('personal-message').innerHTML = createFunFact(funFacts);
  }
   if (hr == 14) {
-  // document.getElementById('personal-message').innerHTML = createStarWarsTrivia(starWarsTrivia);
-  document.getElementById('personal-message').style.display = 'none';
-  document.getElementById('progressBar').style.display = 'block';
+  document.getElementById('personal-message').innerHTML = createStarWarsTrivia(starWarsTrivia);
  }
   if ((hr == 15) || (hr == 13)) {
   document.getElementById('personal-message').innerHTML = createFunFact(funFacts);
  }
  if (hr == 16) {
- document.getElementById('personal-message').innerHTML =  createPun(puns);
+   document.getElementById('personal-message').style.display = 'none';
+   document.getElementById('progressBar').style.display = 'block';
 }
   if ((hr == 17) || (hr == 18) || (hr == 19) || (hr == 20) || (hr == 21) || (hr == 22)) {
   document.getElementById('personal-message').innerHTML = createFunFact(funFacts);
