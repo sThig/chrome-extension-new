@@ -1,10 +1,18 @@
 import { quotes, hello, dates, links, morning, funFacts, puns, starWarsTrivia } from './database';
 
-let userName = 'Scott';
 const second = 1000;
 const minute = second * 60;
 const hour = minute * 60;
 const day = hour * 24;
+
+function init() {
+  let userName = localStorage.getItem('userName');
+  if (!userName) {
+    userName = prompt('Please enter name');
+    localStorage.setItem('userName', userName);
+  }
+  document.getElementById('user').innerHTML = userName;
+}
 
 const newQuote = () => {
   const randomQuote = Math.floor(Math.random() * (quotes.length));
@@ -102,7 +110,9 @@ function displayVoice() {
   document.getElementById('personal-message').innerHTML = createFunFact(funFacts);
  }
   if (hr == 14) {
-  document.getElementById('personal-message').innerHTML = createStarWarsTrivia(starWarsTrivia);
+  // document.getElementById('personal-message').innerHTML = createStarWarsTrivia(starWarsTrivia);
+  document.getElementById('personal-message').style.display = 'none';
+  document.getElementById('progressBar').style.display = 'block';
  }
   if ((hr == 15) || (hr == 13)) {
   document.getElementById('personal-message').innerHTML = createFunFact(funFacts);
@@ -129,19 +139,16 @@ function createLinks(link, site) {
   document.getElementById(`site-${site}`).innerHTML = '<a href=\'' + `${link}` + '\' >' + '<img class=\'link-image\' src= \'/static/link.svg\'>' + `${site}` + '</a>';
 }
 
-// var timeleft = 10;
 var finishTime = new Date();
 finishTime.setHours(15);
 finishTime.setMinutes(0);
 var downloadTimer = setInterval(function(){
-  var currentValue = finishTime.getMinutes() - new Date().getMinutes();
-  document.getElementById('progressBar').value = currentValue;
-  console.log('currentValue', currentValue);
-  // if(timeleft <= 0)
-    // clearInterval(downloadTimer);
+  var currentValue = (new Date() - finishTime)/1000/60;
+  document.getElementById('progressBar').value = 60 + currentValue;
+  console.log('currentValue', 60 + currentValue);
 },1000);
 
-
+init();
 displayVoice();
 newGreet();
 newQuote();
